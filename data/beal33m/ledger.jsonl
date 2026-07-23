@@ -1,0 +1,1 @@
+{"s_max": 1e+30, "m_min": 4, "anchors": 32744685, "hits": 193776, "proper_hits": 0, "model_expected": 1.6151, "secs": 48066.49, "coverage": "complete for all (3,3,m) solutions with a^m <= 1e+30, m >= 4"}
