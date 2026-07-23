@@ -37,7 +37,7 @@ Dependencies: Python 3.11+, numpy. Optional: gmpy2 (2-3x on exact tests).
 | Sec. 4, Table 3: theta-band census to 1e10 | `data/hall/state.json` | `python3 scanners/hall_census.py --x-max 1e10`; table: `python3 analysis/hall_analysis.py data/hall/state.json 1e10` |
 | Sec. 4.2: record points, power channel | `data/hall/hall_hits.jsonl`, `power_hits.jsonl` | cross-certification: every power-channel equation must appear in `data/fc23m/hits*.jsonl` |
 | Sec. 4.3: dec-9 preregistered family counts (465 / 1568) | -- | `python3 analysis/family_enumerate.py --x-lo 1e9 --x-hi 1e10` |
-| Empirical Law 1: gamma = 0.190 +/- 0.013, c = 0.86, R^2 = 0.98 | -- | `python3 analysis/scaling_fit.py data/hall/state.json` |
+| Empirical Law 1: gamma = 0.191 +/- 0.013, c = 0.86, R^2 = 0.98 | -- | `python3 analysis/scaling_fit.py data/hall/state.json` |
 | Sec. 4.4: dec-10 preregistration (832 / 3283; 4045/4150; 39190/41080) | `verification/preregistration_dec10.md` | committed BEFORE the dec-10 scan; git timestamp is the notary |
 
 ## Preregistration protocol
