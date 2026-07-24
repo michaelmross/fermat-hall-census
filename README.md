@@ -24,7 +24,7 @@ Dependencies: Python 3.11+, numpy. Optional: gmpy2 (2-3x on exact tests).
 | tier | command | time | what it certifies |
 |---|---|---|---|
 | 1 | `bash verification/run_selftests.sh` | ~1 min | every instrument re-derives its known solutions (runs in CI on every push) |
-| 2 | `python3 verification/sampled_resolve.py --hits data/beal33m/hits_1e30.jsonl --s-lo 1e24 --s-hi 1e30` | minutes | sampled anchors re-solved independently match the committed census |
+| 2 | `unzip -o data/beal33m/hits_1e30.zip -d data/beal33m/` then `python3 verification/sampled_resolve.py --hits data/beal33m/hits_1e30.jsonl --s-lo 1e24 --s-hi 1e30` | minutes | sampled anchors re-solved independently match the committed census |
 | 3 | scanner commands below | hours | full reproduction (wall times in committed ledgers) |
 
 ## Claim-to-artifact table
@@ -33,7 +33,7 @@ Dependencies: Python 3.11+, numpy. Optional: gmpy2 (2-3x on exact tests).
 |---|---|---|
 | Sec. 2: 7 known solutions, none new (a^m <= 1e16, x <= 1e9) | `data/fc23m/` | `python3 scanners/fc23m_scan.py --s-max 1e16 --x-max 1e9` (+ gap-fill band); audit: `python3 verification/audit_hits.py data/fc23m/*.jsonl` |
 | Sec. 2: deficit accounting (33.36 raw mass, 99.91% exhausted) | -- | `python3 analysis/deficit_analysis.py --ledger data/fc23m/ledger*.jsonl --hits data/fc23m/hits*.jsonl --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9` |
-| Sec. 3, Tables 1-2: 193,776 solutions, 0 coprime, spectral gap | `data/beal33m/hits_1e30.jsonl` | `python3 scanners/beal33m_scan.py --s-max 1e30`; tables: `python3 analysis/spectrum_table.py data/beal33m/hits_1e30.jsonl` |
+| Sec. 3, Tables 1-2: 193,776 solutions, 0 coprime, spectral gap | `data/beal33m/hits_1e30.zip` (unzip to `hits_1e30.jsonl` before running) | `python3 scanners/beal33m_scan.py --s-max 1e30`; tables: `python3 analysis/spectrum_table.py data/beal33m/hits_1e30.jsonl` |
 | Sec. 4, Table 3: theta-band census to 1e10 | `data/hall/state.json` | `python3 scanners/hall_census.py --x-max 1e10`; table: `python3 analysis/hall_analysis.py data/hall/state.json 1e10` |
 | Sec. 4.2: record points, power channel | `data/hall/hall_hits.jsonl`, `power_hits.jsonl` | cross-certification: every power-channel equation must appear in `data/fc23m/hits*.jsonl` |
 | Sec. 4.3: dec-9 preregistered family counts (465 / 1568) | -- | `python3 analysis/family_enumerate.py --x-lo 1e9 --x-hi 1e10` |
@@ -52,6 +52,15 @@ registered and pending.
 
 `sha256sum -c data/CHECKSUMS` from the repo root. Releases are archived via
 the Zenodo-GitHub integration; the paper cites the release DOI.
+
+The `{3,3,m}` census is committed compressed (`data/beal33m/hits_1e30.zip`;
+its SHA-256 is in `CHECKSUMS`). After decompressing, the working file
+`hits_1e30.jsonl` should have SHA-256
+
+    7985018b4a070aafb0f0f5c182b75932491650f095e62149e4756e3c5e1ebe31
+
+so the integrity chain covers both the committed artifact and the file the
+analysis scripts actually read. The decompressed working copy is gitignored.
 
 ## Licenses
 
