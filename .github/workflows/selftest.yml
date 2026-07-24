@@ -9,3 +9,4 @@ jobs:
         with: {python-version: "3.11"}
       - run: pip install numpy
       - run: bash verification/run_selftests.sh
+      - run: sha256sum -c data/CHECKSUMS
