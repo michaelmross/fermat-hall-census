@@ -1,0 +1,10 @@
+# decompressed working copy of the committed hits_1e30.zip (35 MB; exceeds web-upload limits)
+data/beal33m/hits_1e30.jsonl
+
+# python
+__pycache__/
+*.pyc
+
+# scan working directories (commit final outputs deliberately, not by sweep)
+w[0-9]*/
+hall_out*/
