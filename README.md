@@ -6,7 +6,7 @@ Near-Misses, with a Scaling Law for the Distribution of x^(3/2) Modulo One*
 region R is listed"), so this repository is part of the argument, not
 supplementary material: every number in the paper maps to a command below.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21517861.svg)](https://doi.org/10.5281/zenodo.21517861)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21517861.svg)](https://doi.org/10.5281/zenodo.21517861)[![tier-1 selftests](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml/badge.svg)](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml)
 
 ## Layout
 
