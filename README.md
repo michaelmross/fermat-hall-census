@@ -2,7 +2,7 @@
 
 Code, data, and verification infrastructure for three papers by M. M. Ross (2026):
 
-| paper | DOI |
+| Title | DOI |
 |---|---|
 | Exhaustive Censuses of Two Generalized Fermat Families: Coverage Certificates, Calibration Populations, and Datasets | [10.5281/zenodo.21584509](https://doi.org/10.5281/zenodo.21584509) |
 | Coprimality Density and the Proper-Solution Deficit in the Generalized Fermat Family {2,3,m} | [10.5281/zenodo.21584627](https://doi.org/10.5281/zenodo.21584627) |
