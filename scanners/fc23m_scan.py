@@ -153,9 +153,11 @@ def phase_b_block(jobs, x_lo, x_hi, out, counters):
     xmp = {p: x % p for p in P2}
     for s, a, m, sign, t1, t2 in jobs:
         mask = t1[xm1]
-        if sign < 0:                        # need x^3 > s
-            xmin = isqrt(isqrt(s)) if False else int(round(s ** (1 / 3)))
-            mask &= x > xmin
+        if sign < 0:                        # need x^3 > s: exact integer bound
+            r = round(s ** (1 / 3))
+            while r ** 3 <= s: r += 1
+            while (r - 1) ** 3 > s: r -= 1
+            mask &= x >= r                  # r = smallest x with x^3 > s (inclusive)
         idx = np.flatnonzero(mask)
         counters["s1"] += len(idx)
         for p in P2:

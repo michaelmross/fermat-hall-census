@@ -105,20 +105,21 @@ def expected_census(x_lo, x_hi):
     return exp
 
 
-def run(x_max, out, r_floor=0.2, block=1_000_000):
+def run(x_max, out, r_floor=0.2, block=1_000_000, x_min=1):
     os.makedirs(out, exist_ok=True)
     ck_path = os.path.join(out, "checkpoint.json")
     st_path = os.path.join(out, "state.json")
-    ck = {"next_x": 1, "x_max": x_max}
+    config = {"x_min": x_min, "x_max": x_max}
+    ck = {"next_x": x_min, "config": config}
     census = {}
     if os.path.exists(ck_path):
         ck_old = json.load(open(ck_path))
-        if ck_old.get("x_max") == x_max:
+        if ck_old.get("config") == config:
             ck = ck_old
             census = {int(k): v for k, v in json.load(open(st_path)).items()}
         else:
-            print("[hall] config changed; starting fresh")
-    print(f"[hall] backend={BACKEND}  x_max={x_max:.3g}  resume_x={ck['next_x']}")
+            print(f"[hall] config changed ({ck_old.get('config')} -> {config}); starting fresh")
+    print(f"[hall] backend={BACKEND}  x in [{x_min:.3g}, {x_max:.3g}]  resume_x={ck['next_x']}")
     x = ck["next_x"]
     while x <= x_max:
         hi = min(x + block, x_max + 1)
@@ -175,6 +176,7 @@ def selftest():
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--x-max", type=float, default=1e7)
+    ap.add_argument("--x-min", type=float, default=1, help="scan start (for range-split parallel workers)")
     ap.add_argument("--out", default="./hall_out")
     ap.add_argument("--r-floor", type=float, default=0.2)
     ap.add_argument("--block", type=int, default=1_000_000)
@@ -182,4 +184,4 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.selftest:
         sys.exit(selftest())
-    run(int(a.x_max), a.out, a.r_floor, a.block)
+    run(int(a.x_max), a.out, a.r_floor, a.block, int(a.x_min))
