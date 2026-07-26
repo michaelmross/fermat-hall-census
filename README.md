@@ -1,66 +1,107 @@
 # fermat-hall-census
 
-Code and data for *A Census of Generalized Fermat Solutions and Hall
-Near-Misses, with a Scaling Law for the Distribution of x^(3/2) Modulo One*
-(M. M. Ross, 2026). The paper's claims are exhaustive ("every solution in
-region R is listed"), so this repository is part of the argument, not
-supplementary material. Each number in the paper maps to a command below.
+Code, data, and verification infrastructure for three papers by M. M. Ross (2026):
+
+| paper | DOI |
+|---|---|
+| Exhaustive Censuses of Two Generalized Fermat Families: Coverage Certificates, Calibration Populations, and Datasets | [10.5281/zenodo.21584509](https://doi.org/10.5281/zenodo.21584509) |
+| Coprimality Density and the Proper-Solution Deficit in the Generalized Fermat Family {2,3,m} | [10.5281/zenodo.21584627](https://doi.org/10.5281/zenodo.21584627) |
+| The Hall Near-Miss Census to 10^11: Exact Families, a Depleted Continuum, and a Preregistered Scaling Test | [10.5281/zenodo.21584727](https://doi.org/10.5281/zenodo.21584727) |
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21517861.svg)](https://doi.org/10.5281/zenodo.21517861)[![tier-1 selftests](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml/badge.svg)](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml)
+
+The papers' claims are exhaustive ("every solution in region R is listed") or
+preregistered ("these predictions were fixed before the scan"), so this
+repository is part of the argument, not supplementary material: every number
+maps to a command below, and the commit history is the notary for the
+preregistrations. The papers themselves are archived on Zenodo at the DOIs
+above and are not duplicated here.
 
 ## Layout
 
     scanners/       fc23m_scan.py, beal33m_scan.py, hall_census.py
     analysis/       deficit_analysis, hall_analysis, family_enumerate,
-                    scaling_fit, spectrum_table
-    verification/   tier-1 selftests, tier-2 sampled re-solving, audits,
-                    preregistration records
+                    scaling_fit, spectrum_table, merge_states,
+                    coprimality_pipeline, skeleton_ranks.gp, plot_skeleton
+    verification/   run_selftests.sh, sampled_resolve.py, audit_hits.py,
+                    coverage_manifest.py, preregistration records
     data/           committed evidence files + SHA-256 checksums
 
-Dependencies: Python 3.11+, numpy. Optional: gmpy2 (2-3x on exact tests).
+Dependencies: Python 3.11+, numpy. Optional: sympy and matplotlib (coprimality
+pipeline and figure), PARI/GP 2.14+ (rank census), gmpy2 (2-3x on exact tests).
 
 ## Verification tiers
 
 | tier | command | time | what it certifies |
 |---|---|---|---|
 | 1 | `bash verification/run_selftests.sh` | ~1 min | every instrument re-derives its known solutions (runs in CI on every push) |
-| 2 | `unzip -o data/beal33m/hits_1e30.zip -d data/beal33m/` then `python3 verification/sampled_resolve.py --hits data/beal33m/hits_1e30.jsonl --s-lo 1e24 --s-hi 1e30` | minutes | sampled anchors re-solved independently match the committed census |
-| 3 | scanner commands below | hours | full reproduction (wall times in committed ledgers) |
+| 1 | `sha256sum -c data/CHECKSUMS` | seconds | committed evidence matches its manifest (runs in CI) |
+| 1 | `python3 verification/coverage_manifest.py data/hall/dec10 --expect 1e10 1e11` | seconds | the decade-10 worker ranges are complete, disjoint, and contiguous (runs in CI) |
+| 2 | `python3 verification/sampled_resolve.py --hits data/beal33m/hits_1e30.jsonl --s-lo 1e24 --s-hi 1e30` | minutes | sampled anchors re-solved independently match the committed census |
+| 3 | scanner commands below | hours to days | full reproduction (wall times in the committed ledgers) |
+
+The `{3,3,m}` census is committed compressed; unzip before tier-2 or analysis:
+`unzip -o data/beal33m/hits_1e30.zip -d data/beal33m/`.
 
 ## Claim-to-artifact table
 
-| paper claim | evidence | regenerate with |
+### Censuses paper ([21584509](https://doi.org/10.5281/zenodo.21584509))
+
+| claim | evidence | regenerate with |
 |---|---|---|
-| Sec. 2: 7 known solutions, none new (a^m <= 1e16, x <= 1e9) | `data/fc23m/` | `python3 scanners/fc23m_scan.py --s-max 1e16 --x-max 1e9` (+ gap-fill band); audit: `python3 verification/audit_hits.py data/fc23m/*.jsonl` |
-| Sec. 2: deficit accounting (33.36 raw mass, 99.91% exhausted) | -- | `python3 analysis/deficit_analysis.py --ledger data/fc23m/ledger*.jsonl --hits data/fc23m/hits*.jsonl --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9` |
-| Sec. 3, Tables 1-2: 193,776 solutions, 0 coprime, spectral gap | `data/beal33m/hits_1e30.zip` (unzip to `hits_1e30.jsonl` before running) | `python3 scanners/beal33m_scan.py --s-max 1e30`; tables: `python3 analysis/spectrum_table.py data/beal33m/hits_1e30.jsonl` |
-| Sec. 4, Table 3: theta-band census to 1e10 | `data/hall/state.json` | `python3 scanners/hall_census.py --x-max 1e10`; table: `python3 analysis/hall_analysis.py data/hall/state.json 1e10` |
-| Sec. 4.2: record points, power channel | `data/hall/hall_hits.jsonl`, `power_hits.jsonl` | cross-certification: every power-channel equation must appear in `data/fc23m/hits*.jsonl` |
-| Sec. 4.3: dec-9 preregistered family counts (465 / 1568) | -- | `python3 analysis/family_enumerate.py --x-lo 1e9 --x-hi 1e10` |
-| Empirical Law 1: gamma = 0.191 +/- 0.013, c = 0.86, R^2 = 0.98 | -- | `python3 analysis/scaling_fit.py data/hall/state.json` |
-| Sec. 4.4: dec-10 preregistration (832 / 3283; 4045/4150; 39190/41080) | `verification/preregistration_dec10.md` | committed BEFORE the dec-10 scan; git timestamp is the notary |
+| 7 known solutions, none new (a^m <= 1e16, x <= 1e9) | `data/fc23m/` | `python3 scanners/fc23m_scan.py --s-max 1e16 --x-max 1e9`; audit: `python3 verification/audit_hits.py data/fc23m/*.jsonl` |
+| boundary repair: 196 anchors swept, no solution missed | `scanners/fc23m_scan.py` (exact integer cube root + regression test) | `python3 scanners/fc23m_scan.py --selftest` |
+| deficit accounting (33.36 raw mass, 99.91% exhausted) | -- | `python3 analysis/deficit_analysis.py --ledger data/fc23m/ledger*.jsonl --hits data/fc23m/hits*.jsonl --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9` |
+| 193,776 solutions, 0 coprime, Euler spectral gap, m = 1 mod 3 tail | `data/beal33m/hits_1e30.zip` | `python3 scanners/beal33m_scan.py --s-max 1e30`; tables: `python3 analysis/spectrum_table.py data/beal33m/hits_1e30.jsonl` |
+
+### Coprimality note ([21584627](https://doi.org/10.5281/zenodo.21584627))
+
+| claim | evidence | regenerate with |
+|---|---|---|
+| l(a) reduces 33.1 to 19.3; E(z) = 24.6 / 26.1 / 27.6; rigid-class decay; stabilization certificate; lambda_6 = 1.30; top-decile mass 73.8% against 6/7 | -- | `python3 analysis/coprimality_pipeline.py all` |
+| 670 sixth-power-free classes, ranks determined unconditionally | `data/coprimality/skeleton_ranks.txt` | `python3 analysis/coprimality_pipeline.py skeleton` then `gp -q analysis/skeleton_ranks.gp` |
+| rank decomposition: 3.17 / 13.86 / 8.55 / 0.48 (12.2% of mass, 16.6% of gap) | -- | `python3 analysis/coprimality_pipeline.py all` (ranks stage) |
+| Figure 1 (the Mordell skeleton) | -- | `python3 analysis/plot_skeleton.py --out skeleton_ranks_note.pdf` |
+
+### Hall census paper ([21584727](https://doi.org/10.5281/zenodo.21584727))
+
+| claim | evidence | regenerate with |
+|---|---|---|
+| theta-band census to 1e11 | `data/hall/state_full.json`, `data/hall/dec10/w1..w6/` | `python3 scanners/hall_census.py --x-min A --x-max B --out wN` per worker; merge: `python3 analysis/merge_states.py state_full.json data/hall/state.json data/hall/dec10/w*/state.json`; table: `python3 analysis/hall_analysis.py data/hall/state_full.json 1e11` |
+| decade-10 coverage: 6 disjoint complete ranges over [1e10, 1e11] | `data/hall/dec10/COVERAGE.md` | `python3 verification/coverage_manifest.py data/hall/dec10 --expect 1e10 1e11 --write` |
+| exact family counts (dec 9: 465 / 1568; dec 10: 832 / 3283) | -- | `python3 analysis/family_enumerate.py --x-lo 1e9 --x-hi 1e10` (and `--x-lo 1e10 --x-hi 1e11`) |
+| Empirical Law: gamma = 0.191 +/- 0.013 unweighted, 0.212 +/- 0.049 weighted | -- | `python3 analysis/scaling_fit.py data/hall/state.json` |
+| decade-10 verdict: no-depletion excluded (-6.85 at theta = 0.9); committed law exceeded (+2.53) | `verification/preregistration_dec10.md` (committed before the scan) + `data/hall/state_full.json` | compare the preregistration table against `python3 analysis/hall_analysis.py data/hall/state_full.json 1e11` |
+| record points and power channel | `data/hall/hall_hits.jsonl`, `power_hits.jsonl` | cross-certification: every power-channel equation must appear in `data/fc23m/hits*.jsonl` |
 
 ## Preregistration protocol
 
-Predictions for untouched regions are committed before scanning them
-(`verification/preregistration_dec10.md`). The commit-then-scan ordering is
-verifiable from git history. The decade-9 test of this kind rejected both
-prior hypotheses at ~7 sigma each and selected the scaling law; decade 10 is
-registered and pending.
+Predictions for untouched regions are committed before those regions are
+scanned; the commit-then-scan ordering is verifiable from git history, and the
+Zenodo release freezes it. Two such tests have been executed:
+
+- **Decade 9** rejected both registered hypotheses (uniform continuum and
+  constant depletion), and the scaling law was then fitted to the accumulated
+  data. Fixed before scanning in the working record, but not independently
+  notarized; the Hall paper says so explicitly.
+- **Decade 10** (`verification/preregistration_dec10.md`, committed before any
+  scanning of that decade) registered exact family counts 832 / 3283 and cell
+  totals under both hypotheses. Outcome: the undepleted-continuum hypothesis
+  is excluded for the second consecutive decade (-6.85 Poisson-standardized at
+  theta = 0.9), while the committed law predicted the discriminating cell to
+  within 1.3% but was exceeded by +2.53 standardized units. The depletion is
+  real and shallower than the fitted power; the law survives as an interior
+  approximation, not a global form.
 
 ## Data integrity
 
-`sha256sum -c data/CHECKSUMS` from the repo root. Releases are archived via
-the Zenodo-GitHub integration; the paper cites the release DOI.
+    sha256sum -c data/CHECKSUMS
 
-The `{3,3,m}` census is committed compressed (`data/beal33m/hits_1e30.zip`;
-its SHA-256 is in `CHECKSUMS`). After decompressing, the working file
-`hits_1e30.jsonl` should have SHA-256
-
-    7985018b4a070aafb0f0f5c182b75932491650f095e62149e4756e3c5e1ebe31
-
-so the integrity chain covers both the committed artifact and the file the
-analysis scripts actually read. The decompressed working copy is gitignored.
+from the repository root. `CHECKSUMS` covers the committed evidence files
+including the compressed `{3,3,m}` census; the decompressed working copy
+`data/beal33m/hits_1e30.jsonl` is gitignored, and its own SHA-256 is recorded
+in `data/README.md` so the chain covers both the committed artifact and the
+file the scripts actually read.
 
 ## Licenses
 
