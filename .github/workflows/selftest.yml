@@ -10,4 +10,4 @@ jobs:
       - run: pip install numpy
       - run: bash verification/run_selftests.sh
       - run: sha256sum -c data/CHECKSUMS
-      - run: python3 verification/coverage_manifest.py data/hall/dec10 --expect 1e10 1e11
+      - run: python3 verification/coverage_manifest.py data/hall --expect 1e10 1e11
