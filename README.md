@@ -75,7 +75,7 @@ artifact-level audits above are not redundant with the scanner self-tests.
 | every improper solution is a sixth-power lift (Lemma 1); 608 primitive seeds; 28-lift Catalan tower | `data/fc23m/hits.jsonl` | `python3 analysis/lift_closure.py data/fc23m/hits.jsonl` |
 | boundary repair: 196 anchors swept, no solution missed | `scanners/fc23m_scan.py` (exact integer cube root + regression test) | `python3 scanners/fc23m_scan.py --selftest` |
 | coverage repair: 347 solutions recovered, one of them a known coprime solution | `data/fc23m/run1/` (pre-repair) against `data/fc23m/hits.jsonl` | `python3 analysis/merge_fc23m.py data/fc23m/run1/hits.jsonl --dry-run` reproduces the pre-repair state and refuses it |
-| deficit accounting (33.36 raw mass, 99.91% exhausted) | -- | `python3 analysis/deficit_analysis.py --ledger data/fc23m/*/ledger.jsonl --hits data/fc23m/hits.jsonl --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9` |
+| deficit accounting (33.09 raw mass, 99.91% exhausted) | -- | `python3 analysis/deficit_analysis.py --ledger data/fc23m/*/ledger.jsonl --hits data/fc23m/hits.jsonl --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9` |
 | 193,776 solutions, 0 coprime, Euler spectral gap, two-skeleton deep tail (m >= 49) | `data/beal33m/hits_1e30.zip` | `python3 scanners/beal33m_scan.py --s-max 1e30`; tables: `python3 analysis/spectrum_table.py data/beal33m/hits_1e30.jsonl`; regularity: `python3 verification/verify_deep_skeletons.py` |
 
 ### Reproducing the {2,3,m} census
