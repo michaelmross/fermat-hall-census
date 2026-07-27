@@ -2,7 +2,7 @@
 
 Code, data, and verification infrastructure for three papers by M. M. Ross (2026):
 
-| paper | DOI |
+| Title | DOI |
 |---|---|
 | Audited Censuses of Two Generalized Fermat Families: Coverage Ledgers, Closure Certificates, and Datasets | [10.5281/zenodo.21584509](https://doi.org/10.5281/zenodo.21584509) |
 | Coprimality Density and the Proper-Solution Deficit in the Generalized Fermat Family {2,3,m} | [10.5281/zenodo.21584627](https://doi.org/10.5281/zenodo.21584627) |
@@ -139,17 +139,16 @@ Zenodo release freezes it. Two such tests have been executed:
   approximation, not a global form.
 
 ## Data integrity
-
-    find data -name '*.jsonl' -o -name '*.json' | grep -v hits_1e30.jsonl | sort | xargs sha256sum > data/CHECKSUMS
+	
+	find data -type f ! -name CHECKSUMS ! -name hits_1e30.jsonl | sort | xargs sha256sum > data/CHECKSUMS
     sha256sum -c data/CHECKSUMS
 
-from the repository root. The `find` form is needed because evidence lives in
-per-run subdirectories (`data/fc23m/run1/`, `data/fc23m/gapfill/`,
-`data/hall/w1..w6/`) that a single-level glob would miss. `CHECKSUMS` covers
-the committed evidence including the compressed `{3,3,m}` census; the
-decompressed working copy `data/beal33m/hits_1e30.jsonl` is gitignored, and
-its own SHA-256 is recorded in `data/README.md`, so the chain covers both the
-committed artifact and the file the scripts actually read.
+from the repository root. Everything under `data/` is covered except the
+manifest itself and the decompressed working copy `data/beal33m/hits_1e30.jsonl`,
+which is gitignored and whose own SHA-256 is recorded in `data/README.md` --
+itself hashed here, so the chain closes. `.gitattributes` marks `data/**` as
+`-text`, so the evidence bytes are identical on every platform and the
+manifest verifies on Linux and Windows alike.
 
 ## Licenses
 
