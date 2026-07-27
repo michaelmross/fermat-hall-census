@@ -1,6 +1,6 @@
 # fermat-hall-census
 
-Code, data, and verification infrastructure for three papers by M. M. Ross (2026):
+Code, data, and verification infrastructure for the Fermat-Hall Census Program: A three-paper investigation by M. M. Ross (2026):
 
 | Title | DOI |
 |---|---|
