@@ -14,7 +14,7 @@ the record's own labels are not trusted.
 
 Usage (from repo root, after unzipping the census):
     unzip -o data/beal33m/hits_1e30.zip -d data/beal33m/
-    python3 verification/verify_deep_skeletons.py
+    python verification/verify_deep_skeletons.py
 """
 import argparse
 import json
