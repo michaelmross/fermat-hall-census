@@ -43,4 +43,10 @@ echo "== beal33m deep-skeleton regularity =="
 $PY -c "import zipfile; zipfile.ZipFile('data/beal33m/hits_1e30.zip').extractall('data/beal33m')"
 $PY verification/verify_deep_skeletons.py
 
+echo "== hall decade-10 coverage (6 disjoint complete worker ranges) =="
+$PY verification/coverage_manifest.py data/hall --expect 1e10 1e11
+
+echo "== fc23m boundary regression (196 formerly skipped candidates) =="
+$PY verification/verify_boundary_sweep.py
+
 echo "== ALL TIER-1 SELFTESTS PASS =="

@@ -9,5 +9,9 @@ jobs:
         with: {python-version: "3.11"}
       - run: pip install numpy
       - run: bash verification/run_selftests.sh
-      - run: sha256sum -c data/CHECKSUMS
-      - run: python3 verification/coverage_manifest.py data/hall --expect 1e10 1e11
+      - name: evidence integrity
+        run: sha256sum -c data/CHECKSUMS
+      - name: manifest covers every committed evidence file
+        run: |
+          diff <(git ls-files data | grep -v '^data/CHECKSUMS$' | sort) \
+               <(sed 's/^[0-9a-f]* [*]\?//' data/CHECKSUMS | sort)

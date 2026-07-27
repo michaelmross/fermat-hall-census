@@ -1,0 +1,1580 @@
+{
+ "artifact": "boundary_sweep_196",
+ "purpose": "Candidates skipped by the pre-repair lower bound in the negative orientation x^3 - a^m = y^2 of fc23m_scan.py. The bound was int(round(s**(1/3))) with a strict inequality, so for every anchor whose cube root has fractional part exceeding 1/2 the first admissible candidate x = ceil(s^(1/3)) was excluded.",
+ "selection_rule": "anchors a^m <= 1e16, m >= 7, not perfect cubes, with 8*a^m > (2*floor((a^m)^(1/3)) + 1)^3",
+ "anchor_ceiling": "1e16",
+ "anchors_total": 478,
+ "candidates": 196,
+ "squares_found": 0,
+ "regenerate": "python3 verification/verify_boundary_sweep.py --write",
+ "records": [
+  {
+   "a": 2,
+   "m": 11,
+   "anchor": "2048",
+   "x": 13,
+   "residual": "149",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 7,
+   "anchor": "2187",
+   "x": 13,
+   "residual": "10",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 8,
+   "anchor": "6561",
+   "x": 19,
+   "residual": "298",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 10,
+   "anchor": "59049",
+   "x": 39,
+   "residual": "270",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 7,
+   "anchor": "78125",
+   "x": 43,
+   "residual": "1382",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 17,
+   "anchor": "131072",
+   "x": 51,
+   "residual": "1579",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 19,
+   "anchor": "524288",
+   "x": 81,
+   "residual": "7153",
+   "is_square": false
+  },
+  {
+   "a": 7,
+   "m": 7,
+   "anchor": "823543",
+   "x": 94,
+   "residual": "7041",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 20,
+   "anchor": "1048576",
+   "x": 102,
+   "residual": "12632",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 13,
+   "anchor": "1594323",
+   "x": 117,
+   "residual": "7290",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 8,
+   "anchor": "1679616",
+   "x": 119,
+   "residual": "5543",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 10,
+   "anchor": "9765625",
+   "x": 214,
+   "residual": "34719",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 25,
+   "anchor": "33554432",
+   "x": 323,
+   "residual": "143835",
+   "is_square": false
+  },
+  {
+   "a": 12,
+   "m": 7,
+   "anchor": "35831808",
+   "x": 330,
+   "residual": "105192",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 11,
+   "anchor": "48828125",
+   "x": 366,
+   "residual": "199771",
+   "is_square": false
+  },
+  {
+   "a": 15,
+   "m": 7,
+   "anchor": "170859375",
+   "x": 555,
+   "residual": "94500",
+   "is_square": false
+  },
+  {
+   "a": 12,
+   "m": 8,
+   "anchor": "429981696",
+   "x": 755,
+   "residual": "387179",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 29,
+   "anchor": "536870912",
+   "x": 813,
+   "residual": "496885",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 13,
+   "anchor": "1220703125",
+   "x": 1069,
+   "residual": "908384",
+   "is_square": false
+  },
+  {
+   "a": 20,
+   "m": 7,
+   "anchor": "1280000000",
+   "x": 1086,
+   "residual": "824056",
+   "is_square": false
+  },
+  {
+   "a": 14,
+   "m": 8,
+   "anchor": "1475789056",
+   "x": 1139,
+   "residual": "1859563",
+   "is_square": false
+  },
+  {
+   "a": 21,
+   "m": 7,
+   "anchor": "1801088541",
+   "x": 1217,
+   "residual": "1396772",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 14,
+   "anchor": "6103515625",
+   "x": 1828,
+   "residual": "4899927",
+   "is_square": false
+  },
+  {
+   "a": 17,
+   "m": 8,
+   "anchor": "6975757441",
+   "x": 1911,
+   "residual": "3063590",
+   "is_square": false
+  },
+  {
+   "a": 26,
+   "m": 7,
+   "anchor": "8031810176",
+   "x": 2003,
+   "residual": "4243851",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 13,
+   "anchor": "13060694016",
+   "x": 2355,
+   "residual": "194859",
+   "is_square": false
+  },
+  {
+   "a": 28,
+   "m": 7,
+   "anchor": "13492928512",
+   "x": 2381,
+   "residual": "5343829",
+   "is_square": false
+  },
+  {
+   "a": 29,
+   "m": 7,
+   "anchor": "17249876309",
+   "x": 2584,
+   "residual": "3636395",
+   "is_square": false
+  },
+  {
+   "a": 30,
+   "m": 7,
+   "anchor": "21870000000",
+   "x": 2797,
+   "residual": "11515573",
+   "is_square": false
+  },
+  {
+   "a": 31,
+   "m": 7,
+   "anchor": "27512614111",
+   "x": 3019,
+   "residual": "3641748",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 35,
+   "anchor": "34359738368",
+   "x": 3251,
+   "residual": "83883",
+   "is_square": false
+  },
+  {
+   "a": 21,
+   "m": 8,
+   "anchor": "37822859361",
+   "x": 3357,
+   "residual": "8680932",
+   "is_square": false
+  },
+  {
+   "a": 34,
+   "m": 7,
+   "anchor": "52523350144",
+   "x": 3745,
+   "residual": "368481",
+   "is_square": false
+  },
+  {
+   "a": 37,
+   "m": 7,
+   "anchor": "94931877133",
+   "x": 4562,
+   "residual": "11755195",
+   "is_square": false
+  },
+  {
+   "a": 7,
+   "m": 13,
+   "anchor": "96889010407",
+   "x": 4593,
+   "residual": "3305450",
+   "is_square": false
+  },
+  {
+   "a": 10,
+   "m": 11,
+   "anchor": "100000000000",
+   "x": 4642,
+   "residual": "26577288",
+   "is_square": false
+  },
+  {
+   "a": 24,
+   "m": 8,
+   "anchor": "110075314176",
+   "x": 4793,
+   "residual": "33551081",
+   "is_square": false
+  },
+  {
+   "a": 38,
+   "m": 7,
+   "anchor": "114415582592",
+   "x": 4855,
+   "residual": "21743783",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 37,
+   "anchor": "137438953472",
+   "x": 5161,
+   "residual": "29034809",
+   "is_square": false
+  },
+  {
+   "a": 13,
+   "m": 10,
+   "anchor": "137858491849",
+   "x": 5166,
+   "residual": "9422447",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 16,
+   "anchor": "152587890625",
+   "x": 5344,
+   "residual": "27856959",
+   "is_square": false
+  },
+  {
+   "a": 40,
+   "m": 7,
+   "anchor": "163840000000",
+   "x": 5472,
+   "residual": "6914048",
+   "is_square": false
+  },
+  {
+   "a": 26,
+   "m": 8,
+   "anchor": "208827064576",
+   "x": 5933,
+   "residual": "17436661",
+   "is_square": false
+  },
+  {
+   "a": 42,
+   "m": 7,
+   "anchor": "230539333248",
+   "x": 6132,
+   "residual": "32598720",
+   "is_square": false
+  },
+  {
+   "a": 43,
+   "m": 7,
+   "anchor": "271818611107",
+   "x": 6478,
+   "residual": "27316245",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 38,
+   "anchor": "274877906944",
+   "x": 6502,
+   "residual": "671064",
+   "is_square": false
+  },
+  {
+   "a": 44,
+   "m": 7,
+   "anchor": "319277809664",
+   "x": 6835,
+   "residual": "34423211",
+   "is_square": false
+  },
+  {
+   "a": 45,
+   "m": 7,
+   "anchor": "373669453125",
+   "x": 7203,
+   "residual": "45301302",
+   "is_square": false
+  },
+  {
+   "a": 46,
+   "m": 7,
+   "anchor": "435817657216",
+   "x": 7582,
+   "residual": "46684152",
+   "is_square": false
+  },
+  {
+   "a": 47,
+   "m": 7,
+   "anchor": "506623120463",
+   "x": 7972,
+   "residual": "19673585",
+   "is_square": false
+  },
+  {
+   "a": 7,
+   "m": 14,
+   "anchor": "678223072849",
+   "x": 8786,
+   "residual": "1618807",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 17,
+   "anchor": "762939453125",
+   "x": 9138,
+   "residual": "111362947",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 25,
+   "anchor": "847288609443",
+   "x": 9463,
+   "residual": "107606404",
+   "is_square": false
+  },
+  {
+   "a": 51,
+   "m": 7,
+   "anchor": "897410677851",
+   "x": 9646,
+   "residual": "104440285",
+   "is_square": false
+  },
+  {
+   "a": 52,
+   "m": 7,
+   "anchor": "1028071702528",
+   "x": 10093,
+   "residual": "88571829",
+   "is_square": false
+  },
+  {
+   "a": 54,
+   "m": 7,
+   "anchor": "1338925209984",
+   "x": 11022,
+   "residual": "76772664",
+   "is_square": false
+  },
+  {
+   "a": 33,
+   "m": 8,
+   "anchor": "1406408618241",
+   "x": 11204,
+   "residual": "25199423",
+   "is_square": false
+  },
+  {
+   "a": 55,
+   "m": 7,
+   "anchor": "1522435234375",
+   "x": 11504,
+   "residual": "27317689",
+   "is_square": false
+  },
+  {
+   "a": 56,
+   "m": 7,
+   "anchor": "1727094849536",
+   "x": 11998,
+   "residual": "41294456",
+   "is_square": false
+  },
+  {
+   "a": 13,
+   "m": 11,
+   "anchor": "1792160394037",
+   "x": 12147,
+   "residual": "124706486",
+   "is_square": false
+  },
+  {
+   "a": 57,
+   "m": 7,
+   "anchor": "1954897493193",
+   "x": 12504,
+   "residual": "103106871",
+   "is_square": false
+  },
+  {
+   "a": 17,
+   "m": 10,
+   "anchor": "2015993900449",
+   "x": 12633,
+   "residual": "140539688",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 41,
+   "anchor": "2199023255552",
+   "x": 13004,
+   "residual": "5368512",
+   "is_square": false
+  },
+  {
+   "a": 58,
+   "m": 7,
+   "anchor": "2207984167552",
+   "x": 13022,
+   "residual": "188719096",
+   "is_square": false
+  },
+  {
+   "a": 59,
+   "m": 7,
+   "anchor": "2488651484819",
+   "x": 13552,
+   "residual": "264167789",
+   "is_square": false
+  },
+  {
+   "a": 60,
+   "m": 7,
+   "anchor": "2799360000000",
+   "x": 14094,
+   "residual": "283942584",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 16,
+   "anchor": "2821109907456",
+   "x": 14130,
+   "residual": "42089544",
+   "is_square": false
+  },
+  {
+   "a": 61,
+   "m": 7,
+   "anchor": "3142742836021",
+   "x": 14648,
+   "residual": "189229771",
+   "is_square": false
+  },
+  {
+   "a": 37,
+   "m": 8,
+   "anchor": "3512479453921",
+   "x": 15201,
+   "residual": "21711680",
+   "is_square": false
+  },
+  {
+   "a": 63,
+   "m": 7,
+   "anchor": "3938980639167",
+   "x": 15793,
+   "residual": "91243090",
+   "is_square": false
+  },
+  {
+   "a": 65,
+   "m": 7,
+   "anchor": "4902227890625",
+   "x": 16988,
+   "residual": "375451647",
+   "is_square": false
+  },
+  {
+   "a": 39,
+   "m": 8,
+   "anchor": "5352009260481",
+   "x": 17492,
+   "residual": "19099007",
+   "is_square": false
+  },
+  {
+   "a": 66,
+   "m": 7,
+   "anchor": "5455160701056",
+   "x": 17604,
+   "residual": "333263808",
+   "is_square": false
+  },
+  {
+   "a": 19,
+   "m": 10,
+   "anchor": "6131066257801",
+   "x": 18303,
+   "residual": "435246326",
+   "is_square": false
+  },
+  {
+   "a": 40,
+   "m": 8,
+   "anchor": "6553600000000",
+   "x": 18714,
+   "residual": "300978344",
+   "is_square": false
+  },
+  {
+   "a": 68,
+   "m": 7,
+   "anchor": "6722988818432",
+   "x": 18874,
+   "residual": "456113192",
+   "is_square": false
+  },
+  {
+   "a": 69,
+   "m": 7,
+   "anchor": "7446353252589",
+   "x": 19528,
+   "residual": "508633363",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 43,
+   "anchor": "8796093022208",
+   "x": 20643,
+   "residual": "579765499",
+   "is_square": false
+  },
+  {
+   "a": 71,
+   "m": 7,
+   "anchor": "9095120158391",
+   "x": 20874,
+   "residual": "180029233",
+   "is_square": false
+  },
+  {
+   "a": 42,
+   "m": 8,
+   "anchor": "9682651996416",
+   "x": 21314,
+   "residual": "12510728",
+   "is_square": false
+  },
+  {
+   "a": 73,
+   "m": 7,
+   "anchor": "11047398519097",
+   "x": 22272,
+   "residual": "448548551",
+   "is_square": false
+  },
+  {
+   "a": 75,
+   "m": 7,
+   "anchor": "13348388671875",
+   "x": 23722,
+   "residual": "770291173",
+   "is_square": false
+  },
+  {
+   "a": 77,
+   "m": 7,
+   "anchor": "16048523266853",
+   "x": 25224,
+   "residual": "251172571",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 17,
+   "anchor": "16926659444736",
+   "x": 25676,
+   "residual": "422671040",
+   "is_square": false
+  },
+  {
+   "a": 78,
+   "m": 7,
+   "anchor": "17565568854912",
+   "x": 25995,
+   "residual": "293094963",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 44,
+   "anchor": "17592186044416",
+   "x": 26008,
+   "residual": "42948096",
+   "is_square": false
+  },
+  {
+   "a": 46,
+   "m": 8,
+   "anchor": "20047612231936",
+   "x": 27166,
+   "residual": "666378360",
+   "is_square": false
+  },
+  {
+   "a": 80,
+   "m": 7,
+   "anchor": "20971520000000",
+   "x": 27577,
+   "residual": "538349033",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 28,
+   "anchor": "22876792454961",
+   "x": 28388,
+   "residual": "487652111",
+   "is_square": false
+  },
+  {
+   "a": 48,
+   "m": 8,
+   "anchor": "28179280429056",
+   "x": 30431,
+   "residual": "1218123935",
+   "is_square": false
+  },
+  {
+   "a": 84,
+   "m": 7,
+   "anchor": "29509034655744",
+   "x": 30902,
+   "residual": "323575064",
+   "is_square": false
+  },
+  {
+   "a": 7,
+   "m": 16,
+   "anchor": "33232930569601",
+   "x": 32151,
+   "residual": "1133769350",
+   "is_square": false
+  },
+  {
+   "a": 86,
+   "m": 7,
+   "anchor": "34792782221696",
+   "x": 32646,
+   "residual": "61700440",
+   "is_square": false
+  },
+  {
+   "a": 87,
+   "m": 7,
+   "anchor": "37725479487783",
+   "x": 33539,
+   "residual": "1351682036",
+   "is_square": false
+  },
+  {
+   "a": 92,
+   "m": 7,
+   "anchor": "55784660123648",
+   "x": 38210,
+   "residual": "2096537352",
+   "is_square": false
+  },
+  {
+   "a": 93,
+   "m": 7,
+   "anchor": "60170087060757",
+   "x": 39186,
+   "residual": "1685106099",
+   "is_square": false
+  },
+  {
+   "a": 18,
+   "m": 11,
+   "anchor": "64268410079232",
+   "x": 40056,
+   "residual": "766416384",
+   "is_square": false
+  },
+  {
+   "a": 94,
+   "m": 7,
+   "anchor": "64847759419264",
+   "x": 40176,
+   "residual": "763152512",
+   "is_square": false
+  },
+  {
+   "a": 54,
+   "m": 8,
+   "anchor": "72301961339136",
+   "x": 41660,
+   "residual": "1284956864",
+   "is_square": false
+  },
+  {
+   "a": 96,
+   "m": 7,
+   "anchor": "75144747810816",
+   "x": 42199,
+   "residual": "1357795783",
+   "is_square": false
+  },
+  {
+   "a": 97,
+   "m": 7,
+   "anchor": "80798284478113",
+   "x": 43232,
+   "residual": "2575305055",
+   "is_square": false
+  },
+  {
+   "a": 55,
+   "m": 8,
+   "anchor": "83733937890625",
+   "x": 43749,
+   "residual": "554428124",
+   "is_square": false
+  },
+  {
+   "a": 98,
+   "m": 7,
+   "anchor": "86812553324672",
+   "x": 44279,
+   "residual": "2175404967",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 20,
+   "anchor": "95367431640625",
+   "x": 45688,
+   "residual": "1395460047",
+   "is_square": false
+  },
+  {
+   "a": 10,
+   "m": 14,
+   "anchor": "100000000000000",
+   "x": 46416,
+   "residual": "721719296",
+   "is_square": false
+  },
+  {
+   "a": 12,
+   "m": 13,
+   "anchor": "106993205379072",
+   "x": 47474,
+   "residual": "2778433352",
+   "is_square": false
+  },
+  {
+   "a": 57,
+   "m": 8,
+   "anchor": "111429157112001",
+   "x": 48121,
+   "residual": "1304963560",
+   "is_square": false
+  },
+  {
+   "a": 102,
+   "m": 7,
+   "anchor": "114868566764928",
+   "x": 48611,
+   "residual": "651558203",
+   "is_square": false
+  },
+  {
+   "a": 19,
+   "m": 11,
+   "anchor": "116490258898219",
+   "x": 48839,
+   "residual": "2864315500",
+   "is_square": false
+  },
+  {
+   "a": 105,
+   "m": 7,
+   "anchor": "140710042265625",
+   "x": 52013,
+   "residual": "3440100572",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 47,
+   "anchor": "140737488355328",
+   "x": 52016,
+   "residual": "343584768",
+   "is_square": false
+  },
+  {
+   "a": 26,
+   "m": 10,
+   "anchor": "141167095653376",
+   "x": 52069,
+   "residual": "1375391133",
+   "is_square": false
+  },
+  {
+   "a": 106,
+   "m": 7,
+   "anchor": "150363025899136",
+   "x": 53176,
+   "residual": "2056736640",
+   "is_square": false
+  },
+  {
+   "a": 107,
+   "m": 7,
+   "anchor": "160578147647843",
+   "x": 54354,
+   "residual": "2989906021",
+   "is_square": false
+  },
+  {
+   "a": 109,
+   "m": 7,
+   "anchor": "182803912081669",
+   "x": 56754,
+   "residual": "1659267395",
+   "is_square": false
+  },
+  {
+   "a": 61,
+   "m": 8,
+   "anchor": "191707312997281",
+   "x": 57661,
+   "residual": "3456298500",
+   "is_square": false
+  },
+  {
+   "a": 20,
+   "m": 11,
+   "anchor": "204800000000000",
+   "x": 58945,
+   "residual": "5170258625",
+   "is_square": false
+  },
+  {
+   "a": 62,
+   "m": 8,
+   "anchor": "218340105584896",
+   "x": 60216,
+   "residual": "1102572800",
+   "is_square": false
+  },
+  {
+   "a": 112,
+   "m": 7,
+   "anchor": "221068140740608",
+   "x": 60466,
+   "residual": "3848534088",
+   "is_square": false
+  },
+  {
+   "a": 7,
+   "m": 17,
+   "anchor": "232630513987207",
+   "x": 61502,
+   "residual": "555250801",
+   "is_square": false
+  },
+  {
+   "a": 113,
+   "m": 7,
+   "anchor": "235260548044817",
+   "x": 61733,
+   "residual": "1648675020",
+   "is_square": false
+  },
+  {
+   "a": 63,
+   "m": 8,
+   "anchor": "248155780267521",
+   "x": 62841,
+   "residual": "2780821800",
+   "is_square": false
+  },
+  {
+   "a": 116,
+   "m": 7,
+   "anchor": "282621973446656",
+   "x": 65625,
+   "residual": "1317568969",
+   "is_square": false
+  },
+  {
+   "a": 117,
+   "m": 7,
+   "anchor": "300124211606973",
+   "x": 66953,
+   "residual": "6283298204",
+   "is_square": false
+  },
+  {
+   "a": 21,
+   "m": 11,
+   "anchor": "350277500542221",
+   "x": 70492,
+   "residual": "5851993267",
+   "is_square": false
+  },
+  {
+   "a": 120,
+   "m": 7,
+   "anchor": "358318080000000",
+   "x": 71027,
+   "residual": "1396296683",
+   "is_square": false
+  },
+  {
+   "a": 66,
+   "m": 8,
+   "anchor": "360040606269696",
+   "x": 71141,
+   "residual": "6974186525",
+   "is_square": false
+  },
+  {
+   "a": 11,
+   "m": 14,
+   "anchor": "379749833583241",
+   "x": 72416,
+   "residual": "5250504055",
+   "is_square": false
+  },
+  {
+   "a": 122,
+   "m": 7,
+   "anchor": "402271083010688",
+   "x": 73820,
+   "residual": "3063957312",
+   "is_square": false
+  },
+  {
+   "a": 29,
+   "m": 10,
+   "anchor": "420707233300201",
+   "x": 74931,
+   "residual": "4462596290",
+   "is_square": false
+  },
+  {
+   "a": 69,
+   "m": 8,
+   "anchor": "513798374428641",
+   "x": 80094,
+   "residual": "8547041943",
+   "is_square": false
+  },
+  {
+   "a": 127,
+   "m": 7,
+   "anchor": "532875860165503",
+   "x": 81073,
+   "residual": "3294170514",
+   "is_square": false
+  },
+  {
+   "a": 22,
+   "m": 11,
+   "anchor": "584318301411328",
+   "x": 83602,
+   "residual": "689351880",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 19,
+   "anchor": "609359740010496",
+   "x": 84780,
+   "residual": "9091341504",
+   "is_square": false
+  },
+  {
+   "a": 130,
+   "m": 7,
+   "anchor": "627485170000000",
+   "x": 85612,
+   "residual": "667940928",
+   "is_square": false
+  },
+  {
+   "a": 71,
+   "m": 8,
+   "anchor": "645753531245761",
+   "x": 86435,
+   "residual": "3151117114",
+   "is_square": false
+  },
+  {
+   "a": 132,
+   "m": 7,
+   "anchor": "698260569735168",
+   "x": 88717,
+   "residual": "4862362645",
+   "is_square": false
+  },
+  {
+   "a": 133,
+   "m": 7,
+   "anchor": "736141813551277",
+   "x": 90293,
+   "residual": "1290832480",
+   "is_square": false
+  },
+  {
+   "a": 134,
+   "m": 7,
+   "anchor": "775771085481344",
+   "x": 91885,
+   "residual": "483097781",
+   "is_square": false
+  },
+  {
+   "a": 73,
+   "m": 8,
+   "anchor": "806460091894081",
+   "x": 93081,
+   "residual": "446156360",
+   "is_square": false
+  },
+  {
+   "a": 135,
+   "m": 7,
+   "anchor": "817215093984375",
+   "x": 93493,
+   "residual": "1707509782",
+   "is_square": false
+  },
+  {
+   "a": 31,
+   "m": 10,
+   "anchor": "819628286980801",
+   "x": 93585,
+   "residual": "3388995824",
+   "is_square": false
+  },
+  {
+   "a": 136,
+   "m": 7,
+   "anchor": "860542568759296",
+   "x": 95117,
+   "residual": "4109207317",
+   "is_square": false
+  },
+  {
+   "a": 137,
+   "m": 7,
+   "anchor": "905824306333433",
+   "x": 96757,
+   "residual": "6701576660",
+   "is_square": false
+  },
+  {
+   "a": 23,
+   "m": 11,
+   "anchor": "952809757913927",
+   "x": 98402,
+   "residual": "12242626881",
+   "is_square": false
+  },
+  {
+   "a": 138,
+   "m": 7,
+   "anchor": "953133216331392",
+   "x": 98413,
+   "residual": "8357399605",
+   "is_square": false
+  },
+  {
+   "a": 75,
+   "m": 8,
+   "anchor": "1001129150390625",
+   "x": 100038,
+   "residual": "11282864247",
+   "is_square": false
+  },
+  {
+   "a": 139,
+   "m": 7,
+   "anchor": "1002544368429379",
+   "x": 100085,
+   "residual": "7799684746",
+   "is_square": false
+  },
+  {
+   "a": 140,
+   "m": 7,
+   "anchor": "1054135040000000",
+   "x": 101773,
+   "residual": "3592176917",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 50,
+   "anchor": "1125899906842624",
+   "x": 104032,
+   "residual": "2748678144",
+   "is_square": false
+  },
+  {
+   "a": 142,
+   "m": 7,
+   "anchor": "1164175380274048",
+   "x": 105198,
+   "residual": "10826748344",
+   "is_square": false
+  },
+  {
+   "a": 145,
+   "m": 7,
+   "anchor": "1347646586640625",
+   "x": 110457,
+   "residual": "11528973368",
+   "is_square": false
+  },
+  {
+   "a": 79,
+   "m": 8,
+   "anchor": "1517108809906561",
+   "x": 114905,
+   "residual": "177861064",
+   "is_square": false
+  },
+  {
+   "a": 148,
+   "m": 7,
+   "anchor": "1555363874947072",
+   "x": 115863,
+   "residual": "8238093575",
+   "is_square": false
+  },
+  {
+   "a": 149,
+   "m": 7,
+   "anchor": "1630436461403549",
+   "x": 117698,
+   "residual": "12653268843",
+   "is_square": false
+  },
+  {
+   "a": 80,
+   "m": 8,
+   "anchor": "1677721600000000",
+   "x": 118825,
+   "residual": "13802765625",
+   "is_square": false
+  },
+  {
+   "a": 3,
+   "m": 32,
+   "anchor": "1853020188851841",
+   "x": 122827,
+   "residual": "5898771442",
+   "is_square": false
+  },
+  {
+   "a": 152,
+   "m": 7,
+   "anchor": "1874584905187328",
+   "x": 123302,
+   "residual": "22650632280",
+   "is_square": false
+  },
+  {
+   "a": 15,
+   "m": 13,
+   "anchor": "1946195068359375",
+   "x": 124852,
+   "residual": "642398833",
+   "is_square": false
+  },
+  {
+   "a": 153,
+   "m": 7,
+   "anchor": "1962637152460137",
+   "x": 125203,
+   "residual": "18934280290",
+   "is_square": false
+  },
+  {
+   "a": 34,
+   "m": 10,
+   "anchor": "2064377754059776",
+   "x": 127330,
+   "residual": "14482777224",
+   "is_square": false
+  },
+  {
+   "a": 155,
+   "m": 7,
+   "anchor": "2149422977421875",
+   "x": 129055,
+   "residual": "12958419500",
+   "is_square": false
+  },
+  {
+   "a": 156,
+   "m": 7,
+   "anchor": "2248392813428736",
+   "x": 131006,
+   "residual": "7098719480",
+   "is_square": false
+  },
+  {
+   "a": 83,
+   "m": 8,
+   "anchor": "2252292232139041",
+   "x": 131082,
+   "residual": "23016944327",
+   "is_square": false
+  },
+  {
+   "a": 157,
+   "m": 7,
+   "anchor": "2351243277537493",
+   "x": 132974,
+   "residual": "14250168931",
+   "is_square": false
+  },
+  {
+   "a": 5,
+   "m": 22,
+   "anchor": "2384185791015625",
+   "x": 133592,
+   "residual": "6915595063",
+   "is_square": false
+  },
+  {
+   "a": 159,
+   "m": 7,
+   "anchor": "2569093262823519",
+   "x": 136960,
+   "residual": "8114712481",
+   "is_square": false
+  },
+  {
+   "a": 85,
+   "m": 8,
+   "anchor": "2724905250390625",
+   "x": 139675,
+   "residual": "29077781250",
+   "is_square": false
+  },
+  {
+   "a": 35,
+   "m": 10,
+   "anchor": "2758547353515625",
+   "x": 140247,
+   "residual": "1885333598",
+   "is_square": false
+  },
+  {
+   "a": 162,
+   "m": 7,
+   "anchor": "2928229434235008",
+   "x": 143066,
+   "residual": "28336776488",
+   "is_square": false
+  },
+  {
+   "a": 86,
+   "m": 8,
+   "anchor": "2992179271065856",
+   "x": 144100,
+   "residual": "29849934144",
+   "is_square": false
+  },
+  {
+   "a": 163,
+   "m": 7,
+   "anchor": "3057125241215467",
+   "x": 145135,
+   "residual": "22814119908",
+   "is_square": false
+  },
+  {
+   "a": 164,
+   "m": 7,
+   "anchor": "3190854023266304",
+   "x": 147221,
+   "residual": "17293408557",
+   "is_square": false
+  },
+  {
+   "a": 165,
+   "m": 7,
+   "anchor": "3329565857578125",
+   "x": 149324,
+   "residual": "9472706099",
+   "is_square": false
+  },
+  {
+   "a": 6,
+   "m": 20,
+   "anchor": "3656158440062976",
+   "x": 154055,
+   "residual": "20097653399",
+   "is_square": false
+  },
+  {
+   "a": 26,
+   "m": 11,
+   "anchor": "3670344486987776",
+   "x": 154254,
+   "residual": "20927791288",
+   "is_square": false
+  },
+  {
+   "a": 168,
+   "m": 7,
+   "anchor": "3777156435935232",
+   "x": 155736,
+   "residual": "18051393024",
+   "is_square": false
+  },
+  {
+   "a": 89,
+   "m": 8,
+   "anchor": "3936588805702081",
+   "x": 157897,
+   "residual": "14345871192",
+   "is_square": false
+  },
+  {
+   "a": 91,
+   "m": 8,
+   "anchor": "4702525276151521",
+   "x": 167537,
+   "residual": "11530571632",
+   "is_square": false
+  },
+  {
+   "a": 174,
+   "m": 7,
+   "anchor": "4828861374436224",
+   "x": 169024,
+   "residual": "4309609600",
+   "is_square": false
+  },
+  {
+   "a": 176,
+   "m": 7,
+   "anchor": "5231047633534976",
+   "x": 173592,
+   "residual": "5368755712",
+   "is_square": false
+  },
+  {
+   "a": 93,
+   "m": 8,
+   "anchor": "5595818096650401",
+   "x": 177537,
+   "residual": "39201142752",
+   "is_square": false
+  },
+  {
+   "a": 178,
+   "m": 7,
+   "anchor": "5661610866627712",
+   "x": 178230,
+   "residual": "31354139288",
+   "is_square": false
+  },
+  {
+   "a": 179,
+   "m": 7,
+   "anchor": "5888046306640859",
+   "x": 180575,
+   "residual": "22420968516",
+   "is_square": false
+  },
+  {
+   "a": 94,
+   "m": 8,
+   "anchor": "6095689385410816",
+   "x": 182673,
+   "residual": "3574644401",
+   "is_square": false
+  },
+  {
+   "a": 181,
+   "m": 7,
+   "anchor": "6364290927201661",
+   "x": 185318,
+   "residual": "40878775771",
+   "is_square": false
+  },
+  {
+   "a": 183,
+   "m": 7,
+   "anchor": "6873178582377927",
+   "x": 190131,
+   "residual": "18501640164",
+   "is_square": false
+  },
+  {
+   "a": 184,
+   "m": 7,
+   "anchor": "7140436495826944",
+   "x": 192564,
+   "residual": "8794875200",
+   "is_square": false
+  },
+  {
+   "a": 185,
+   "m": 7,
+   "anchor": "7416552901015625",
+   "x": 195015,
+   "residual": "33355612750",
+   "is_square": false
+  },
+  {
+   "a": 97,
+   "m": 8,
+   "anchor": "7837433594376961",
+   "x": 198636,
+   "residual": "165506495",
+   "is_square": false
+  },
+  {
+   "a": 28,
+   "m": 11,
+   "anchor": "8293509467471872",
+   "x": 202417,
+   "residual": "49785773841",
+   "is_square": false
+  },
+  {
+   "a": 188,
+   "m": 7,
+   "anchor": "8300513205665792",
+   "x": 202474,
+   "residual": "54342486632",
+   "is_square": false
+  },
+  {
+   "a": 98,
+   "m": 8,
+   "anchor": "8507630225817856",
+   "x": 204144,
+   "residual": "24579600128",
+   "is_square": false
+  },
+  {
+   "a": 2,
+   "m": 53,
+   "anchor": "9007199254740992",
+   "x": 208064,
+   "residual": "21989425152",
+   "is_square": false
+  },
+  {
+   "a": 191,
+   "m": 7,
+   "anchor": "9273284218074431",
+   "x": 210093,
+   "residual": "25131599926",
+   "is_square": false
+  },
+  {
+   "a": 193,
+   "m": 7,
+   "anchor": "9974730326005057",
+   "x": 215262,
+   "residual": "21817359671",
+   "is_square": false
+  }
+ ]
+}

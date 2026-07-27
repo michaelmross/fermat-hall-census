@@ -60,6 +60,46 @@ KNOWN = {
 N_KNOWN = len(KNOWN)  # 7 in-family; the other three of the ten have signatures outside {2,3,m}
 
 
+def exact_int(text):
+    """Parse an exact integer from '1e16', '2.5e14', '10**30', '1_000_000'.
+
+    argparse's type=float would route the ceiling through a double: for
+    example int(float("1e30")) is 1000000000000000019884624838656, not 10**30,
+    so an exact census would run to a slightly different ceiling than the one
+    stated. Parsed here as integer arithmetic so the recorded ceiling is the
+    stated one.
+    """
+    t = str(text).strip().replace("_", "")
+    if "**" in t:
+        base, _, exp = t.partition("**")
+        return int(base) ** int(exp)
+    if "e" in t.lower():
+        mant, _, exp = t.lower().partition("e")
+        e = int(exp)
+        if "." in mant:
+            ip, _, fp = mant.partition(".")
+            mant, e = ip + fp, e - len(fp)
+        if e < 0:
+            raise argparse.ArgumentTypeError(f"{text} is not an integer")
+        return int(mant) * 10 ** e
+    return int(t)
+
+
+def min_cube_base(s):
+    """Smallest x with x**3 > s, i.e. ceil(s**(1/3)) for non-cubes.
+
+    Float seed plus exact integer correction: the float cube root is only
+    accurate to ~15 significant digits, and trusting round() here is what
+    caused the boundary defect of paper Sec. 2.3.
+    """
+    r = round(s ** (1 / 3))
+    while r ** 3 <= s:
+        r += 1
+    while (r - 1) ** 3 > s:
+        r -= 1
+    return r
+
+
 def square_table(mod):
     t = np.zeros(mod, dtype=bool)
     y = np.arange(mod, dtype=np.int64)
@@ -154,10 +194,7 @@ def phase_b_block(jobs, x_lo, x_hi, out, counters):
     for s, a, m, sign, t1, t2 in jobs:
         mask = t1[xm1]
         if sign < 0:                        # need x^3 > s: exact integer bound
-            r = round(s ** (1 / 3))
-            while r ** 3 <= s: r += 1
-            while (r - 1) ** 3 > s: r -= 1
-            mask &= x >= r                  # r = smallest x with x^3 > s (inclusive)
+            mask &= x >= min_cube_base(s)
         idx = np.flatnonzero(mask)
         counters["s1"] += len(idx)
         for p in P2:
@@ -221,6 +258,7 @@ def run(s_max, x_max, block, m_min, out, reset=False, quiet=False, s_min=0):
         phase_b_block(jobs, x, hi, out, counters)
         secs = time.time() - t0
         ledger(out, phase="B", x_lo=x, x_hi=hi - 1, jobs=len(jobs),
+               s_min=s_min, s_max=s_max,
                s1_survivors=counters["s1"] - c0["s1"],
                exact_tests=counters["exact"] - c0["exact"],
                hits=counters["hits"] - c0["hits"], secs=round(secs, 2))
@@ -241,7 +279,7 @@ def selftest():
     import tempfile
     out = tempfile.mkdtemp(prefix="fc23m_selftest_")
     print("=== selftest: S_MAX=2.5e14, X_MAX=1e5 -- must rediscover all 7 known {2,3,m} solutions ===")
-    run(s_max=2.5e14, x_max=100_000, block=100_000, m_min=7, out=out, reset=True)
+    run(s_max=250_000_000_000_000, x_max=100_000, block=100_000, m_min=7, out=out, reset=True)
     hits = [json.loads(l) for l in open(os.path.join(out, "hits.jsonl"))]
     found_known = sum(1 for h in hits if h["known"])
     novel_proper = [h for h in hits if not h["known"] and h["proper"]]
@@ -254,9 +292,9 @@ def selftest():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--s-max", type=float, default=1e14)
-    ap.add_argument("--s-min", type=float, default=0, help="anchor band lower bound (gap-fill runs)")
-    ap.add_argument("--x-max", type=float, default=1e7)
+    ap.add_argument("--s-max", type=exact_int, default=10**14)
+    ap.add_argument("--s-min", type=exact_int, default=0, help="anchor band lower bound (gap-fill runs)")
+    ap.add_argument("--x-max", type=exact_int, default=10**7)
     ap.add_argument("--block", type=int, default=1_000_000)
     ap.add_argument("--m-min", type=int, default=7)
     ap.add_argument("--out", default="./fc23m_out")
@@ -266,4 +304,4 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.selftest:
         sys.exit(selftest())
-    run(a.s_max, int(a.x_max), a.block, a.m_min, a.out, a.reset, a.quiet, a.s_min)
+    run(a.s_max, a.x_max, a.block, a.m_min, a.out, a.reset, a.quiet, a.s_min)
