@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.jsonl -text
+*.json  -text
+data/CHECKSUMS -text
+*.sh text eol=lf
+data/** -text
