@@ -11,7 +11,7 @@ Inputs (both produced by the pipeline):
     coprimality_results.json  from `coprimality_pipeline.py all`
 
 Usage:
-    python3 plot_skeleton.py --out skeleton_ranks_note.pdf
+    python plot_skeleton.py --out skeleton_ranks_note.pdf
 """
 import argparse
 import json

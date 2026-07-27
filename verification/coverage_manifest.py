@@ -17,9 +17,9 @@ checked claims rather than assertions.
 Exit status is 0 only if every check passes, so this is safe to run in CI.
 
 Usage:
-    python3 coverage_manifest.py data/hall/dec10                 # verify + print
-    python3 coverage_manifest.py data/hall/dec10 --write         # also write COVERAGE.md
-    python3 coverage_manifest.py data/hall/dec10 --expect 1e10 1e11
+    python coverage_manifest.py data/hall/dec10                 # verify + print
+    python coverage_manifest.py data/hall/dec10 --write         # also write COVERAGE.md
+    python coverage_manifest.py data/hall/dec10 --expect 1e10 1e11
 """
 import argparse
 import json

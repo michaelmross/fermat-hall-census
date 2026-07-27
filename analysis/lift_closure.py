@@ -17,8 +17,8 @@ Reports:
      exponent >= m_min, which forces d to be a perfect power
 
 Usage (from repo root):
-    python3 analysis/lift_closure.py data/fc23m/hits.jsonl
-    python3 analysis/lift_closure.py --bands 0,1e4,1e8,1e12,1e16 data/fc23m/*.jsonl
+    python analysis/lift_closure.py data/fc23m/hits.jsonl
+    python analysis/lift_closure.py --bands 0,1e4,1e8,1e12,1e16 data/fc23m/*.jsonl
 """
 import argparse
 import glob

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the {3,3,m} exponent-spectrum and provenance numbers (paper Sec. 3).
 
-Usage: python3 spectrum_table.py path/to/hits.jsonl
+Usage: python spectrum_table.py path/to/hits.jsonl
 """
 import json, sys
 from collections import Counter

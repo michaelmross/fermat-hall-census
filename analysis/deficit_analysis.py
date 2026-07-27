@@ -17,7 +17,7 @@ Poisson at large x = calibration that the random model is honest where structure
 the proper residual (coprime, m >= 11) is the quantity whose emptiness is being measured.
 
 Usage:
-  python3 deficit_analysis.py --ledger fc23m_out/ledger.jsonl fc23m_gap/ledger.jsonl \
+  python deficit_analysis.py --ledger fc23m_out/ledger.jsonl fc23m_gap/ledger.jsonl \
       --hits fc23m_out/hits.jsonl fc23m_gap/hits.jsonl \
       --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9
 """

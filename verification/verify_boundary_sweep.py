@@ -16,8 +16,8 @@ x = ceil(s^(1/3)) was never tested. This check does three things:
      data/fc23m/boundary_sweep_196.json.
 
 Usage (from repo root):
-    python3 verification/verify_boundary_sweep.py
-    python3 verification/verify_boundary_sweep.py --write   # regenerate artifact
+    python verification/verify_boundary_sweep.py
+    python verification/verify_boundary_sweep.py --write   # regenerate artifact
 """
 import argparse
 import json

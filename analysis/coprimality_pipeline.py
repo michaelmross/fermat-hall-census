@@ -19,9 +19,9 @@ Stages
 
 Usage
 -----
-    python3 coprimality_pipeline.py all
-    python3 coprimality_pipeline.py skeleton          # then run the .gp script
-    python3 coprimality_pipeline.py ranks --ranks skeleton_ranks.txt
+    python coprimality_pipeline.py all
+    python coprimality_pipeline.py skeleton          # then run the .gp script
+    python coprimality_pipeline.py ranks --ranks skeleton_ranks.txt
 
 Dependencies: numpy, sympy. Runtime for `all`: a few minutes.
 """

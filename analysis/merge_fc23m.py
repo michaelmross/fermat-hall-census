@@ -8,7 +8,7 @@ full record key and re-verifying every identity from scratch, and refuses to
 write an output that does not contain all seven known coprime solutions.
 
 Usage (from repo root):
-    python3 analysis/merge_fc23m.py data/fc23m/run1/hits.jsonl \\
+    python analysis/merge_fc23m.py data/fc23m/run1/hits.jsonl \\
         data/fc23m/gapfill/hits.jsonl --out data/fc23m/hits.jsonl
 
     python3 analysis/merge_fc23m.py ... --dry-run     # report, write nothing

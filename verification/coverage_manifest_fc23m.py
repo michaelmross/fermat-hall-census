@@ -12,7 +12,7 @@ the run's declared lower anchor bound. Phase-A coverage is read from the
 Phase-A records. The union over all runs must equal the full rectangle.
 
 Usage (from repo root):
-    python3 verification/coverage_manifest_fc23m.py \
+    python verification/coverage_manifest_fc23m.py \
         --run data/fc23m/ledger.jsonl:0 \
         --run data/fc23m/gapfill/ledger.jsonl:1e14 \
         --s-max 1e16 --x-max 1e9

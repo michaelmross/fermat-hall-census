@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Merge Hall census state.json files from disjoint x-range workers.
 
-Usage: python3 merge_states.py merged_state.json worker1/state.json worker2/state.json ...
+Usage: python merge_states.py merged_state.json worker1/state.json worker2/state.json ...
 Ranges must be disjoint (overlaps would double-count); ledgers/hits files
 concatenate trivially (cat) since they are append-only per-range records.
 """

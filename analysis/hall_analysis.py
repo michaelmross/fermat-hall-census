@@ -13,7 +13,7 @@ Corrections applied / structure flagged:
       (k/x^0.75 clustering; x = 0 mod 4 density doubling); not yet in closed form,
       so it is FLAGGED (excess reported) rather than subtracted.
 
-Usage: python3 hall_analysis.py state.json [x_max]
+Usage: python hall_analysis.py state.json [x_max]
 """
 
 import json, math, sys

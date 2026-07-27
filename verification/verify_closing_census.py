@@ -12,8 +12,8 @@ that every internal check had passed over.
 Runtime: a few seconds at the 1e16 ceiling.
 
 Usage (from repo root):
-    python3 verification/verify_closing_census.py
-    python3 verification/verify_closing_census.py --hits data/fc23m/hits.jsonl --s-max 1e16
+    python verification/verify_closing_census.py
+    python verification/verify_closing_census.py --hits data/fc23m/hits.jsonl --s-max 1e16
 """
 import argparse
 import json

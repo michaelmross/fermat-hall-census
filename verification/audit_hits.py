@@ -13,8 +13,8 @@ own numeric fields; the `known` and `proper` flags written by the scanner are
 checked against that recomputation rather than trusted.
 
 Usage (from repo root):
-    python3 verification/audit_hits.py data/fc23m/hits.jsonl
-    python3 verification/audit_hits.py --any run1/hits.jsonl   # partial run
+    python verification/audit_hits.py data/fc23m/hits.jsonl
+    python verification/audit_hits.py --any run1/hits.jsonl   # partial run
 
 Without --any the file must be the full committed census: 855 records,
 orientation totals 412 / 285 / 158, all seven known coprime solutions present.
