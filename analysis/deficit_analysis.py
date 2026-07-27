@@ -109,7 +109,13 @@ def main():
     # ---- expected ----
     exp_b = np.zeros(len(decades))
     for i, (lo, hi) in enumerate(decades):
-        exp_b[i] = sum(e_b(s, sg, lo, hi) for s, _, _ in all_anchors for sg in (+1, -1))
+        # Bands are half-open [lo, hi) to match the observed-count convention
+        # above; e_b sums inclusively, so the upper end is hi-1 except on the
+        # final band, which carries x = x_max. Counting both ends inclusively
+        # double-counts every decade boundary (0.206 of model mass at these
+        # parameters) and inflates the per-band obs/exp ratios.
+        hi_incl = hi if i == len(decades) - 1 else hi - 1
+        exp_b[i] = sum(e_b(s, sg, lo, hi_incl) for s, _, _ in all_anchors for sg in (+1, -1))
     exp_a = sum(C * s ** (-1 / 6) / 2 for s, _, _ in all_anchors)
 
     print(f"anchors: {len(all_anchors)} across {len(segs)} band(s); x <= {x_max:.3g}; C_A = {C:.5f}")
