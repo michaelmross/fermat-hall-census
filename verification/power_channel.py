@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Perfect-power channel readout and cross-certification against the companion census.
 
-    python3 verification/power_channel.py
+    python verification/power_channel.py
 
 Lists every k(x) that is a perfect m-th power, m >= 7, and checks each against
 the companion {2,3,m} census.  The two programs record different orientations

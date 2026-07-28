@@ -11,7 +11,7 @@ Usage (from repo root):
     python analysis/merge_fc23m.py data/fc23m/run1/hits.jsonl \\
         data/fc23m/gapfill/hits.jsonl --out data/fc23m/hits.jsonl
 
-    python3 analysis/merge_fc23m.py ... --dry-run     # report, write nothing
+    python analysis/merge_fc23m.py ... --dry-run     # report, write nothing
 """
 import argparse
 import json

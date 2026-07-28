@@ -13,8 +13,8 @@ rests on a measured F(s) rather than an assumption.
 
 Run from the repository root:
 
-  python3 analysis/fano.py 7 0.9,1.0
-  python3 analysis/fano.py 6 0.9,1.0
+  python analysis/fano.py 7 0.9,1.0
+  python analysis/fano.py 6 0.9,1.0
 
 Reproduces the table of Section 6.  A sub-range run at theta = 0.9 over
 [1e8, 4e8) supplies the third point; see the --x-lo/--x-hi options.

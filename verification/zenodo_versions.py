@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """List the Zenodo deposits for the repository archive, with diagnostics.
 
-    python3 verification/zenodo_versions.py [recid]
+    python verification/zenodo_versions.py [recid]
 
 Fetches the record, then follows the versions link the API returns rather than
 constructing one. On an HTTP error it prints the response body, which is where

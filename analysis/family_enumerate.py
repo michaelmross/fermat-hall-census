@@ -8,7 +8,7 @@ tested in exact integer arithmetic (no floating logarithms).
 Dependency-free (stdlib only).
 
 Usage:
-  python3 family_enumerate.py --x-lo 1e9 --x-hi 1e10 --thetas 0.8,0.9
+  python family_enumerate.py --x-lo 1e9 --x-hi 1e10 --thetas 0.8,0.9
 Reproduces the preregistered family counts (dec 9: 465/1568; dec 10: 832/3283).
 """
 import argparse

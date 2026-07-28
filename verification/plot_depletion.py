@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Figure: the depletion collapse, its local slope, and the dispersion calibration.
 
-  python3 analysis/plot_depletion.py --out depletion_note.pdf
+  python analysis/plot_depletion.py --out depletion_note.pdf
 
 Panel (a) plots the family-subtracted depletion D against the scaling variable
 s = x^(theta-3/2) for every cell eligible under the frozen rule (uniform-model

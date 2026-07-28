@@ -23,8 +23,8 @@ Canaries (selftest): x=2 gives k=1 (Catalan: 3^2-2^3=1, r=1.414...);
 x=5234 gives k=17 (378661^2 - 5234^3 = 17, r ~ 4.26, the classical Hall example).
 
 Usage:
-  python3 hall_census.py --selftest
-  python3 hall_census.py --x-max 1e9 --out ./hall_out      (resumable; ~tens of min)
+  python hall_census.py --selftest
+  python hall_census.py --x-max 1e9 --out ./hall_out      (resumable; ~tens of min)
 """
 
 import argparse, json, math, os, sys, time

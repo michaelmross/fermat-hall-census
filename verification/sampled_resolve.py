@@ -2,7 +2,7 @@
 """Tier-2 verification for the {3,3,m} census: re-solve sampled anchors
 independently and confirm every solution appears in the committed hits file.
 
-Usage: python3 sampled_resolve.py --hits ../data/beal33m/hits_1e30.jsonl \
+Usage: python sampled_resolve.py --hits ../data/beal33m/hits_1e30.jsonl \
            --s-lo 1e24 --s-hi 1e30 --n 60 [--seed 30]
 """
 import argparse, json, random, sys

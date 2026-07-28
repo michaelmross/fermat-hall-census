@@ -3,7 +3,7 @@
 
 Run from the repository root:
 
-    python3 analysis/scaling_fit.py
+    python analysis/scaling_fit.py
 
 Emits, in order, every number reported in Sections 5 and 8 of the note:
 

@@ -2,7 +2,7 @@
 \\ classes arising from the {2,3,m} anchor ensemble.
 \\
 \\ Input:  skeleton_classes.txt, one sixth-power-free integer k0 per line,
-\\         written by `python3 coprimality_pipeline.py skeleton`.
+\\         written by `python coprimality_pipeline.py skeleton`.
 \\ Output: skeleton_ranks.txt, one line per class:
 \\
 \\             k0|rank_lower|rank_upper|torsion_order

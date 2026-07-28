@@ -24,8 +24,8 @@ coprime hit with m >= 11 not on the known list would be an eleventh Fermat-Catal
 solution. Do not expect one; expect an auditable empty ledger.
 
 Usage:
-  python3 fc23m_scan.py --selftest
-  python3 fc23m_scan.py --s-max 1e14 --x-max 1e8 --out ./fc23m_out
+  python fc23m_scan.py --selftest
+  python fc23m_scan.py --s-max 1e14 --x-max 1e8 --out ./fc23m_out
   (re-run the same command to resume from checkpoint; --reset to start over)
 
 Dependencies: numpy. gmpy2 used automatically if present (~2-3x on exact tests).

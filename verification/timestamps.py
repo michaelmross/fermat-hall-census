@@ -3,7 +3,7 @@
 
 Run from the repository root:
 
-    python3 verification/timestamps.py
+    python verification/timestamps.py
 
 Collects, and checks the ordering of:
   1. the local git record for verification/preregistration_dec10.md

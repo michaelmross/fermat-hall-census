@@ -23,8 +23,8 @@ A verified pairwise-coprime hit here would contradict published theorems for mos
 -- treat any such output as a bug until proven otherwise, then as a very loud event.
 
 Usage:
-  python3 beal33m_scan.py --selftest
-  python3 beal33m_scan.py --s-max 1e16 --out ./beal33m_out
+  python beal33m_scan.py --selftest
+  python beal33m_scan.py --s-max 1e16 --out ./beal33m_out
 """
 
 import argparse, json, math, os, sys, time
