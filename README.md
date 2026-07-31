@@ -82,7 +82,7 @@ specification would be reproduced identically by both.
 | tier | command | time | what it certifies |
 |---|---|---|---|
 | 1 | `bash verification/run_selftests.sh` | ~1 min | the whole tier-1 suite below, in order (runs in CI on every push) |
-| 1 | `sha256sum -c data/CHECKSUMS` | seconds | committed evidence matches its manifest |
+| 1 | `sha256sum -c data/CHECKSUMS` | seconds | committed evidence matches its manifest (runs in CI, together with a check that the manifest covers every tracked file under `data/`) |
 | 1 | `python verification/audit_hits.py data/fc23m/hits.jsonl` | seconds | every record re-verifies exactly; all seven known coprime solutions are present *in the artifact*; orientation totals unchanged |
 | 1 | `python verification/coverage_manifest_fc23m.py --run data/fc23m/run1/ledger.jsonl:0 --run data/fc23m/gapfill/ledger.jsonl:1e14 --s-max 1e16 --x-max 1e9` | seconds | the {2,3,m} coverage *rectangle* -- all 478 anchors x all x in [1,1e9], both phases -- is covered by the union of the runs |
 | 1 | `python verification/verify_closing_census.py` | seconds | the anchor-largest orientation agrees record-for-record with an independent from-scratch enumeration sharing no code with the scanner |
@@ -219,21 +219,29 @@ containing several candidate cell sets would undercut the claim that one set
 was fixed in advance.
 
 ## Data integrity
-	
-	find data -type f ! -name CHECKSUMS ! -name hits_1e30.jsonl | sort | xargs sha256sum > data/CHECKSUMS
+
+    sha256sum $(git ls-files data | grep -v '^data/CHECKSUMS$') > data/CHECKSUMS
     sha256sum -c data/CHECKSUMS
 
-from the repository root. Everything under `data/` is covered except the
-manifest itself and the decompressed working copy `data/beal33m/hits_1e30.jsonl`,
-which is gitignored and whose own SHA-256 is recorded in `data/README.md` --
-itself hashed here, so the chain closes. `.gitattributes` marks `data/**` as
-`-text`, so the evidence bytes are identical on every platform and the
-manifest verifies on Linux and Windows alike.
+from the repository root, in Git Bash: its `sha256sum` writes the
+`hash *path` form that the CI manifest check expects. Every tracked file
+under `data/` is covered except the manifest itself, and CI compares the two
+sets on every push -- so an evidence file committed without a manifest entry
+cannot pass. Regenerate after editing anything under `data/`, including
+`data/README.md`, which is hashed here like any other file.
+
+The decompressed working copy `data/beal33m/hits_1e30.jsonl` is gitignored
+and therefore absent from the manifest; its own SHA-256 is recorded in
+`data/README.md` -- itself hashed here, so the chain closes.
+`.gitattributes` marks `data/**` as `-text`, so the evidence bytes are
+identical on every platform and the manifest verifies on Linux and Windows
+alike. Those hashes hold only while that attribute stays in place.
 
 Outputs of the independent implementations live in `verification/results/`
-with their own README recording what each certifies, and are hashed the same
-way. Checkpoint files (`*.ckpt`) are working state, are gitignored, and are
-regenerable by re-running the command that produced them.
+with their own README recording what each certifies; they are outside
+`data/` and so are not covered by the manifest. Checkpoint files (`*.ckpt`)
+are working state, are gitignored, and are regenerable by re-running the
+command that produced them.
 
 ## Licenses
 
