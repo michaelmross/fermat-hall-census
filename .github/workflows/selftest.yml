@@ -1,0 +1,17 @@
+name: tier-1 selftests
+on: [push, pull_request]
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install numpy
+      - run: bash verification/run_selftests.sh
+      - name: evidence integrity
+        run: sha256sum -c data/CHECKSUMS
+      - name: manifest covers every committed evidence file
+        run: |
+          diff <(git ls-files data | grep -v '^data/CHECKSUMS$' | sort) \
+               <(sed 's/^[0-9a-f]* [*]\?//' data/CHECKSUMS | sort)
