@@ -8,7 +8,8 @@ Code, data, and verification infrastructure for the Fermat-Hall Census Program: 
 | Coprimality Density and the Proper-Solution Deficit in the Generalized Fermat Family {2,3,m} | [10.5281/zenodo.21584627](https://doi.org/10.5281/zenodo.21584627) |
 | The Hall Near-Miss Census to 10^11: Exact Families, a Depleted Residual Population, and a Preregistered Scaling Test | [10.5281/zenodo.21584727](https://doi.org/10.5281/zenodo.21584727) |
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21517860.svg)](https://doi.org/10.5281/zenodo.21517860)[![tier-1 selftests](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml/badge.svg)](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21517860.svg)](https://doi.org/10.5281/zenodo.21517860)
+[![tier-1 selftests](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml/badge.svg)](https://github.com/michaelmross/fermat-hall-census/actions/workflows/selftest.yml)
 
 The papers' claims are exhaustive ("every solution in region R is listed") or
 preregistered ("these predictions were fixed before the scan"), so this
