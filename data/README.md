@@ -17,4 +17,6 @@ Generate/verify checksums from the repo root:
 CHECKSUMS is committed; the paper cites the release DOI, and the release
 freezes these hashes.
 
+These hashes are valid only while data/** -text stays in .gitattributes.
+
 Data license: CC-BY 4.0 (see LICENSE-DATA).
