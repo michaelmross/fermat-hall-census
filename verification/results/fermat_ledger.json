@@ -1,0 +1,18 @@
+{
+  "anchors": 478,
+  "o1_all": 14.033270281762539,
+  "o1_scanned": 14.018154594550706,
+  "o2_all": 12.023850710954619,
+  "o2_scanned": 12.008735023742789,
+  "o3_forced": 6.982828441822155,
+  "Eraw_all": 33.03994943453932,
+  "Eraw_scanned": 33.00971806011565,
+  "Eraw_tail": 0.030231374423664192,
+  "err_all": 5.6342498461081246e-06,
+  "err_scanned": 5.634242288259355e-06,
+  "ell_all": 19.249715010660694,
+  "ell_scanned": 19.23141054155461,
+  "avg_ell_scanned": 0.5825984489334723,
+  "coverage_pct": 99.90850054270342,
+  "conventions": "sum over integer x; y>=1; canonical anchors; scanned = x<=1e9 on orientations 1,2; orientation 3 forced complete"
+}

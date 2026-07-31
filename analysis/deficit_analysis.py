@@ -6,9 +6,11 @@ Model: for a job (anchor s, sign), the value t = x^3 + sign*s is treated as a ra
 integer of its size, so P(t is a perfect square) ~ 1/(2*sqrt(t)). Expected counts are
 exact integrals of that density over the covered (anchor, x) region:
 
-  Phase B:  E = sum_{s,sign} int dx / (2*sqrt(x^3 + sign*s))     [substitution u=sqrt(t)
-            makes the integrand du / (3*(u^2 - sign*s)^(2/3)), smooth everywhere]
-  Phase A:  E = sum_s C * s^(-1/6) / 2,  C = int_0^1 (1-u^3)^(-1/2) du ~ 1.40218
+  Phase B:  E = sum_{s,sign} sum_x 1/(2*sqrt(x^3 + sign*s))
+  Phase A:  E = sum_s sum_{x=1}^{icbrt(s-1)} 1/(2*sqrt(s - x^3))
+
+BOTH PHASES ARE SUMMED OVER INTEGER x. Two endpoint defects have been repaired
+here; read the CORRECTIONS note before reintroducing any closed form.
 
 The model counts ALL squares -- it does not know about the structured scalar-multiple
 families (improper hits), which are certain rather than random events. Interpretation:
@@ -16,10 +18,31 @@ observed > expected at small x = the structured families; observed ~ expected wi
 Poisson at large x = calibration that the random model is honest where structure thins;
 the proper residual (coprime, m >= 11) is the quantity whose emptiness is being measured.
 
+CORRECTIONS (2026-07)
+---------------------
+1. Decade bands were closed at both ends, so each of x = 10, 10^2, ..., 10^8
+   fell in two adjacent bands and contributed twice: +0.2060 of model mass at
+   these parameters. Bands are now half-open [lo, hi), matching the convention
+   the observed counts already used, with the final band carrying x = x_max.
+
+2. Phase A used the closed form E = C * s^(-1/6) / 2 with
+   C = int_0^1 (1-u^3)^(-1/2) du = 1.40218, the continuum limit of the sum.
+   That integrand has an integrable branch point at x^3 = s, so the integral
+   collects mass on the interval between the largest admissible integer cube
+   base and s^(1/3), where no integer lies: +0.0795 over the 478 anchors
+   (7.0623 against the true 6.9828). Phase A is now summed over integer x;
+   C_phase_a() is retained and reported as a diagnostic only.
+
+Together these inflated the printed total by 0.2855: 33.2952 against an exact
+33.0097 over the scanned region. Phase B was never affected -- it summed
+discretely throughout and agrees with the exact per-orientation values
+(14.018155 and 12.008735) to six decimals.
+
 Usage:
-  python deficit_analysis.py --ledger fc23m_out/ledger.jsonl fc23m_gap/ledger.jsonl \
-      --hits fc23m_out/hits.jsonl fc23m_gap/hits.jsonl \
-      --segment 0:1e14 --segment 1e14:1e16 --x-max 1e9
+	python analysis/deficit_analysis.py \
+		--ledger data/fc23m/run1/ledger.jsonl data/fc23m/gapfill/ledger.jsonl \
+		--hits   data/fc23m/run1/hits.jsonl   data/fc23m/gapfill/hits.jsonl \
+		--segment 0:1e14 --segment 1e14:1e16 --x-max 1e9
 """
 
 import argparse, json, math
@@ -43,6 +66,28 @@ def C_phase_a(n=200001):
     return float(np.trapezoid(f, v))
 
 
+def icbrt(n):
+    """exact floor(n^(1/3)) for positive int n"""
+    r = int(round(n ** (1 / 3)))
+    while r ** 3 > n: r -= 1
+    while (r + 1) ** 3 <= n: r += 1
+    return r
+
+
+def e_a(s):
+    """Expected squares of s - x^3 over integer x in [1, icbrt(s-1)] (y >= 1).
+
+    Summed, not integrated: see CORRECTIONS note 2. x^3 and s - x^3 are formed
+    in int64, exact for s <= 10^16 (max x^3 ~ 10^16 << 2^63), so the
+    cancellation as x^3 approaches s loses no significance.
+    """
+    n = icbrt(s - 1)
+    if n < 1:
+        return 0.0
+    x = np.arange(1, n + 1, dtype=np.int64)
+    return float(np.sum(0.5 / np.sqrt((s - x ** 3).astype(np.float64))))
+
+
 def e_b(s, sign, x1, x2, n=4001):
     """Expected squares of x^3 + sign*s for integer x in [x1, x2] (discrete model)."""
     if sign < 0:
@@ -60,7 +105,14 @@ def e_b(s, sign, x1, x2, n=4001):
     head = sum(0.5 / math.sqrt(x * x * x + sign * s) for x in range(x1, x1 + K))
     xs = np.geomspace(float(x1 + K), float(x2), n)
     t = xs ** 3 + sign * float(s)             # safe: |x^3| >> cancellation zone after the strip
-    return head + float(np.trapezoid(0.5 / np.sqrt(t), xs))
+    integral = float(np.trapezoid(0.5 / np.sqrt(t), xs))
+    # Euler-Maclaurin: sum_{x=a}^{b} f = int_a^b f + (f(a) + f(b))/2 + O(f'),
+    # and the sum is what the model asks for. Omitting the half-endpoint term
+    # ran the total 7e-5 low over the full anchor set -- immaterial for the
+    # per-band ratios but visible in the fourth decimal of the total.
+    fa = 0.5 / math.sqrt((x1 + K) ** 3 + sign * s)
+    fb = 0.5 / math.sqrt(x2 ** 3 + sign * s)
+    return head + integral + 0.5 * (fa + fb)
 
 
 def main():
@@ -103,8 +155,10 @@ def main():
         for rec in map(json.loads, open(path)):
             if rec["phase"] == "A": led_a += rec["hits"]
             else: led_b += rec["hits"]
+    _match = (led_a == obs_a and led_b == int(obs.sum()))
     print(f"cross-check -- ledger hits A/B: {led_a}/{led_b}; hits-file records A/B: "
-          f"{obs_a}/{int(obs.sum())} (mismatch => hits/ledger files from different run sets)")
+          f"{obs_a}/{int(obs.sum())} "
+          f"({'OK' if _match else 'MISMATCH => hits/ledger files from different run sets'})")
 
     # ---- expected ----
     exp_b = np.zeros(len(decades))
@@ -116,9 +170,13 @@ def main():
         # parameters) and inflates the per-band obs/exp ratios.
         hi_incl = hi if i == len(decades) - 1 else hi - 1
         exp_b[i] = sum(e_b(s, sg, lo, hi_incl) for s, _, _ in all_anchors for sg in (+1, -1))
-    exp_a = sum(C * s ** (-1 / 6) / 2 for s, _, _ in all_anchors)
+    exp_a = sum(e_a(s) for s, _, _ in all_anchors)
+    exp_a_continuum = sum(C * s ** (-1 / 6) / 2 for s, _, _ in all_anchors)
 
-    print(f"anchors: {len(all_anchors)} across {len(segs)} band(s); x <= {x_max:.3g}; C_A = {C:.5f}")
+    print(f"anchors: {len(all_anchors)} across {len(segs)} band(s); x <= {x_max:.3g}")
+    print(f"diagnostic -- Phase A summed {exp_a:.4f} vs continuum closed form "
+          f"{exp_a_continuum:.4f} (C = {C:.5f}); the excess "
+          f"{exp_a_continuum - exp_a:+.4f} is branch-point mass at x^3 = s")
     print(f"\n{'x band':>22} {'observed':>9} {'expected':>9} {'obs/exp':>8} {'Poisson z':>10}")
     for i, (lo, hi) in enumerate(decades):
         z = (obs[i] - exp_b[i]) / math.sqrt(max(exp_b[i], 1e-12))

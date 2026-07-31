@@ -1,0 +1,6036 @@
+{
+ "pari_source": "analysis/skeleton_ranks.txt",
+ "classes": 670,
+ "results": [
+  {
+   "k0": 1,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,1] :\tRank = 0"
+  },
+  {
+   "k0": -1,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,-1] :\tRank = 0"
+  },
+  {
+   "k0": 2,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,2] :\tRank = 1"
+  },
+  {
+   "k0": -2,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-2] :\tRank = 1"
+  },
+  {
+   "k0": 3,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,3] :\tRank = 1"
+  },
+  {
+   "k0": -3,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-3] :\tRank = 0"
+  },
+  {
+   "k0": 4,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,4] :\tRank = 0"
+  },
+  {
+   "k0": -4,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-4] :\tRank = 1"
+  },
+  {
+   "k0": 5,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,5] :\tRank = 1"
+  },
+  {
+   "k0": -5,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-5] :\tRank = 0"
+  },
+  {
+   "k0": 6,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,6] :\tRank = 0"
+  },
+  {
+   "k0": -6,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-6] :\tRank = 0"
+  },
+  {
+   "k0": 7,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,7] :\tRank = 0"
+  },
+  {
+   "k0": -7,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-7] :\tRank = 1"
+  },
+  {
+   "k0": 8,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,8] :\tRank = 1"
+  },
+  {
+   "k0": -8,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,-8] :\tRank = 0"
+  },
+  {
+   "k0": 9,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,9] :\tRank = 1"
+  },
+  {
+   "k0": -9,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-9] :\tRank = 0"
+  },
+  {
+   "k0": 10,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,10] :\tRank = 1"
+  },
+  {
+   "k0": -10,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-10] :\tRank = 0"
+  },
+  {
+   "k0": 11,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,11] :\tRank = 1"
+  },
+  {
+   "k0": -11,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-11] :\tRank = 2"
+  },
+  {
+   "k0": 12,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,12] :\tRank = 1"
+  },
+  {
+   "k0": -12,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-12] :\tRank = 0"
+  },
+  {
+   "k0": 13,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,13] :\tRank = 0"
+  },
+  {
+   "k0": -13,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-13] :\tRank = 1"
+  },
+  {
+   "k0": 14,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,14] :\tRank = 0"
+  },
+  {
+   "k0": -14,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-14] :\tRank = 0"
+  },
+  {
+   "k0": 15,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,15] :\tRank = 2"
+  },
+  {
+   "k0": -15,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-15] :\tRank = 1"
+  },
+  {
+   "k0": 16,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,16] :\tRank = 0"
+  },
+  {
+   "k0": -16,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-16] :\tRank = 0"
+  },
+  {
+   "k0": 17,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,17] :\tRank = 2"
+  },
+  {
+   "k0": -17,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-17] :\tRank = 0"
+  },
+  {
+   "k0": 18,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,18] :\tRank = 1"
+  },
+  {
+   "k0": -18,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-18] :\tRank = 1"
+  },
+  {
+   "k0": 19,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,19] :\tRank = 1"
+  },
+  {
+   "k0": -19,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-19] :\tRank = 1"
+  },
+  {
+   "k0": 20,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,20] :\tRank = 0"
+  },
+  {
+   "k0": -20,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-20] :\tRank = 1"
+  },
+  {
+   "k0": 21,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,21] :\tRank = 0"
+  },
+  {
+   "k0": -21,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-21] :\tRank = 1"
+  },
+  {
+   "k0": 22,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,22] :\tRank = 1"
+  },
+  {
+   "k0": -22,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-22] :\tRank = 1"
+  },
+  {
+   "k0": 23,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,23] :\tRank = 0"
+  },
+  {
+   "k0": -23,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-23] :\tRank = 1"
+  },
+  {
+   "k0": 24,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,24] :\tRank = 2"
+  },
+  {
+   "k0": -24,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-24] :\tRank = 0"
+  },
+  {
+   "k0": 25,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,25] :\tRank = 0"
+  },
+  {
+   "k0": -25,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-25] :\tRank = 1"
+  },
+  {
+   "k0": 26,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,26] :\tRank = 1"
+  },
+  {
+   "k0": -26,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-26] :\tRank = 2"
+  },
+  {
+   "k0": 27,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,27] :\tRank = 0"
+  },
+  {
+   "k0": -27,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-27] :\tRank = 0"
+  },
+  {
+   "k0": 28,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,28] :\tRank = 1"
+  },
+  {
+   "k0": -28,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-28] :\tRank = 1"
+  },
+  {
+   "k0": 29,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,29] :\tRank = 0"
+  },
+  {
+   "k0": -29,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-29] :\tRank = 1"
+  },
+  {
+   "k0": 30,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,30] :\tRank = 1"
+  },
+  {
+   "k0": -30,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-30] :\tRank = 1"
+  },
+  {
+   "k0": 31,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,31] :\tRank = 1"
+  },
+  {
+   "k0": -31,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-31] :\tRank = 0"
+  },
+  {
+   "k0": 32,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,32] :\tRank = 0"
+  },
+  {
+   "k0": -32,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-32] :\tRank = 0"
+  },
+  {
+   "k0": 33,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,33] :\tRank = 1"
+  },
+  {
+   "k0": -33,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-33] :\tRank = 0"
+  },
+  {
+   "k0": 34,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,34] :\tRank = 0"
+  },
+  {
+   "k0": -34,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-34] :\tRank = 0"
+  },
+  {
+   "k0": 35,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,35] :\tRank = 1"
+  },
+  {
+   "k0": -35,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-35] :\tRank = 1"
+  },
+  {
+   "k0": 36,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,36] :\tRank = 1"
+  },
+  {
+   "k0": -36,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-36] :\tRank = 0"
+  },
+  {
+   "k0": 37,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,37] :\tRank = 2"
+  },
+  {
+   "k0": -37,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-37] :\tRank = 0"
+  },
+  {
+   "k0": 38,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,38] :\tRank = 1"
+  },
+  {
+   "k0": -38,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-38] :\tRank = 1"
+  },
+  {
+   "k0": 39,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,39] :\tRank = 1"
+  },
+  {
+   "k0": -39,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-39] :\tRank = 2"
+  },
+  {
+   "k0": 40,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,40] :\tRank = 1"
+  },
+  {
+   "k0": -40,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-40] :\tRank = 1"
+  },
+  {
+   "k0": 41,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,41] :\tRank = 1"
+  },
+  {
+   "k0": -41,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-41] :\tRank = 0"
+  },
+  {
+   "k0": 42,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,42] :\tRank = 0"
+  },
+  {
+   "k0": -42,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-42] :\tRank = 0"
+  },
+  {
+   "k0": 43,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,43] :\tRank = 2"
+  },
+  {
+   "k0": -43,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-43] :\tRank = 1"
+  },
+  {
+   "k0": 44,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,44] :\tRank = 1"
+  },
+  {
+   "k0": -44,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-44] :\tRank = 1"
+  },
+  {
+   "k0": 45,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,45] :\tRank = 0"
+  },
+  {
+   "k0": -45,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-45] :\tRank = 1"
+  },
+  {
+   "k0": 46,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,46] :\tRank = 1"
+  },
+  {
+   "k0": -46,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-46] :\tRank = 0"
+  },
+  {
+   "k0": 47,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,47] :\tRank = 1"
+  },
+  {
+   "k0": -47,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-47] :\tRank = 2"
+  },
+  {
+   "k0": 48,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,48] :\tRank = 1"
+  },
+  {
+   "k0": -48,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-48] :\tRank = 1"
+  },
+  {
+   "k0": 49,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,49] :\tRank = 0"
+  },
+  {
+   "k0": -49,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-49] :\tRank = 1"
+  },
+  {
+   "k0": 50,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,50] :\tRank = 1"
+  },
+  {
+   "k0": -50,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-50] :\tRank = 1"
+  },
+  {
+   "k0": 51,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,51] :\tRank = 0"
+  },
+  {
+   "k0": -51,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-51] :\tRank = 1"
+  },
+  {
+   "k0": 52,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,52] :\tRank = 1"
+  },
+  {
+   "k0": -52,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-52] :\tRank = 0"
+  },
+  {
+   "k0": 53,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,53] :\tRank = 0"
+  },
+  {
+   "k0": -53,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-53] :\tRank = 2"
+  },
+  {
+   "k0": 54,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,54] :\tRank = 1"
+  },
+  {
+   "k0": -54,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-54] :\tRank = 1"
+  },
+  {
+   "k0": 55,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,55] :\tRank = 1"
+  },
+  {
+   "k0": -55,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-55] :\tRank = 1"
+  },
+  {
+   "k0": 56,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,56] :\tRank = 1"
+  },
+  {
+   "k0": -56,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-56] :\tRank = 1"
+  },
+  {
+   "k0": 57,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,57] :\tRank = 2"
+  },
+  {
+   "k0": -57,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-57] :\tRank = 1"
+  },
+  {
+   "k0": 58,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,58] :\tRank = 1"
+  },
+  {
+   "k0": -58,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-58] :\tRank = 1"
+  },
+  {
+   "k0": 59,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,59] :\tRank = 0"
+  },
+  {
+   "k0": -59,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-59] :\tRank = 1"
+  },
+  {
+   "k0": 60,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,60] :\tRank = 0"
+  },
+  {
+   "k0": -60,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-60] :\tRank = 1"
+  },
+  {
+   "k0": 61,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,61] :\tRank = 1"
+  },
+  {
+   "k0": -61,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-61] :\tRank = 2"
+  },
+  {
+   "k0": 62,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,62] :\tRank = 1"
+  },
+  {
+   "k0": -62,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-62] :\tRank = 0"
+  },
+  {
+   "k0": 63,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,63] :\tRank = 2"
+  },
+  {
+   "k0": -63,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-63] :\tRank = 1"
+  },
+  {
+   "k0": 65,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,65] :\tRank = 2"
+  },
+  {
+   "k0": -65,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-65] :\tRank = 1"
+  },
+  {
+   "k0": 66,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,66] :\tRank = 1"
+  },
+  {
+   "k0": -66,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-66] :\tRank = 1"
+  },
+  {
+   "k0": 67,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,67] :\tRank = 1"
+  },
+  {
+   "k0": -67,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-67] :\tRank = 2"
+  },
+  {
+   "k0": 68,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,68] :\tRank = 1"
+  },
+  {
+   "k0": -68,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-68] :\tRank = 0"
+  },
+  {
+   "k0": 69,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,69] :\tRank = 1"
+  },
+  {
+   "k0": -69,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-69] :\tRank = 0"
+  },
+  {
+   "k0": 70,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,70] :\tRank = 0"
+  },
+  {
+   "k0": -70,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-70] :\tRank = 0"
+  },
+  {
+   "k0": 71,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,71] :\tRank = 1"
+  },
+  {
+   "k0": -71,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-71] :\tRank = 1"
+  },
+  {
+   "k0": 72,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,72] :\tRank = 1"
+  },
+  {
+   "k0": -72,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-72] :\tRank = 1"
+  },
+  {
+   "k0": 73,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,73] :\tRank = 2"
+  },
+  {
+   "k0": -73,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-73] :\tRank = 0"
+  },
+  {
+   "k0": 74,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,74] :\tRank = 1"
+  },
+  {
+   "k0": -74,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-74] :\tRank = 1"
+  },
+  {
+   "k0": 75,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,75] :\tRank = 0"
+  },
+  {
+   "k0": -75,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-75] :\tRank = 1"
+  },
+  {
+   "k0": 76,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,76] :\tRank = 1"
+  },
+  {
+   "k0": -76,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-76] :\tRank = 2"
+  },
+  {
+   "k0": 77,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,77] :\tRank = 1"
+  },
+  {
+   "k0": -77,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-77] :\tRank = 0"
+  },
+  {
+   "k0": 78,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,78] :\tRank = 0"
+  },
+  {
+   "k0": -78,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-78] :\tRank = 0"
+  },
+  {
+   "k0": 79,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,79] :\tRank = 2"
+  },
+  {
+   "k0": -79,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-79] :\tRank = 1"
+  },
+  {
+   "k0": 80,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,80] :\tRank = 1"
+  },
+  {
+   "k0": -80,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-80] :\tRank = 0"
+  },
+  {
+   "k0": 81,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,81] :\tRank = 0"
+  },
+  {
+   "k0": -81,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-81] :\tRank = 1"
+  },
+  {
+   "k0": 82,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,82] :\tRank = 1"
+  },
+  {
+   "k0": -82,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-82] :\tRank = 0"
+  },
+  {
+   "k0": 83,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,83] :\tRank = 1"
+  },
+  {
+   "k0": -83,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-83] :\tRank = 2"
+  },
+  {
+   "k0": 84,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,84] :\tRank = 0"
+  },
+  {
+   "k0": -84,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-84] :\tRank = 1"
+  },
+  {
+   "k0": 85,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,85] :\tRank = 0"
+  },
+  {
+   "k0": -85,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-85] :\tRank = 1"
+  },
+  {
+   "k0": 86,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,86] :\tRank = 0"
+  },
+  {
+   "k0": -86,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-86] :\tRank = 0"
+  },
+  {
+   "k0": 87,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,87] :\tRank = 0"
+  },
+  {
+   "k0": -87,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-87] :\tRank = 1"
+  },
+  {
+   "k0": 88,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,88] :\tRank = 0"
+  },
+  {
+   "k0": -88,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-88] :\tRank = 0"
+  },
+  {
+   "k0": 89,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,89] :\tRank = 2"
+  },
+  {
+   "k0": -89,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-89] :\tRank = 2"
+  },
+  {
+   "k0": 90,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,90] :\tRank = 0"
+  },
+  {
+   "k0": -90,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-90] :\tRank = 0"
+  },
+  {
+   "k0": 91,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,91] :\tRank = 1"
+  },
+  {
+   "k0": -91,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-91] :\tRank = 1"
+  },
+  {
+   "k0": 92,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,92] :\tRank = 1"
+  },
+  {
+   "k0": -92,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-92] :\tRank = 0"
+  },
+  {
+   "k0": 93,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,93] :\tRank = 0"
+  },
+  {
+   "k0": -93,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-93] :\tRank = 1"
+  },
+  {
+   "k0": 94,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,94] :\tRank = 1"
+  },
+  {
+   "k0": -94,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-94] :\tRank = 1"
+  },
+  {
+   "k0": 95,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,95] :\tRank = 0"
+  },
+  {
+   "k0": -95,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-95] :\tRank = 1"
+  },
+  {
+   "k0": 96,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,96] :\tRank = 0"
+  },
+  {
+   "k0": -96,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-96] :\tRank = 0"
+  },
+  {
+   "k0": 97,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,97] :\tRank = 1"
+  },
+  {
+   "k0": -97,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-97] :\tRank = 0"
+  },
+  {
+   "k0": 98,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,98] :\tRank = 1"
+  },
+  {
+   "k0": -98,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-98] :\tRank = 0"
+  },
+  {
+   "k0": 99,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,99] :\tRank = 1"
+  },
+  {
+   "k0": -99,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-99] :\tRank = 0"
+  },
+  {
+   "k0": 100,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,100] :\tRank = 1"
+  },
+  {
+   "k0": -100,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-100] :\tRank = 1"
+  },
+  {
+   "k0": 101,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,101] :\tRank = 2"
+  },
+  {
+   "k0": -101,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-101] :\tRank = 1"
+  },
+  {
+   "k0": 102,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,102] :\tRank = 1"
+  },
+  {
+   "k0": -102,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-102] :\tRank = 1"
+  },
+  {
+   "k0": 103,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,103] :\tRank = 1"
+  },
+  {
+   "k0": -103,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-103] :\tRank = 0"
+  },
+  {
+   "k0": 104,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,104] :\tRank = 0"
+  },
+  {
+   "k0": -104,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-104] :\tRank = 2"
+  },
+  {
+   "k0": 105,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,105] :\tRank = 1"
+  },
+  {
+   "k0": -105,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-105] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 106,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,106] :\tRank = 2"
+  },
+  {
+   "k0": -106,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-106] :\tRank = 2"
+  },
+  {
+   "k0": 107,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,107] :\tRank = 1"
+  },
+  {
+   "k0": -107,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-107] :\tRank = 1"
+  },
+  {
+   "k0": 108,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,108] :\tRank = 1"
+  },
+  {
+   "k0": -108,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-108] :\tRank = 0"
+  },
+  {
+   "k0": 109,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,109] :\tRank = 0"
+  },
+  {
+   "k0": -109,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-109] :\tRank = 2"
+  },
+  {
+   "k0": 110,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,110] :\tRank = 1"
+  },
+  {
+   "k0": -110,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-110] :\tRank = 1"
+  },
+  {
+   "k0": 111,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,111] :\tRank = 1"
+  },
+  {
+   "k0": -111,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-111] :\tRank = 0"
+  },
+  {
+   "k0": 112,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,112] :\tRank = 1"
+  },
+  {
+   "k0": -112,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-112] :\tRank = 1"
+  },
+  {
+   "k0": 113,
+   "status": "ok",
+   "rank": 3,
+   "lower": 3,
+   "upper": 3,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,113] :\tRank = 3"
+  },
+  {
+   "k0": -113,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-113] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 114,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,114] :\tRank = 0"
+  },
+  {
+   "k0": -114,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-114] :\tRank = 0"
+  },
+  {
+   "k0": 115,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,115] :\tRank = 0"
+  },
+  {
+   "k0": -115,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-115] :\tRank = 1"
+  },
+  {
+   "k0": 116,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,116] :\tRank = 0"
+  },
+  {
+   "k0": -116,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-116] :\tRank = 2"
+  },
+  {
+   "k0": 117,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,117] :\tRank = 1"
+  },
+  {
+   "k0": -117,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-117] :\tRank = 0"
+  },
+  {
+   "k0": 118,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,118] :\tRank = 1"
+  },
+  {
+   "k0": -118,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-118] :\tRank = 2"
+  },
+  {
+   "k0": 119,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,119] :\tRank = 1"
+  },
+  {
+   "k0": -119,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-119] :\tRank = 0"
+  },
+  {
+   "k0": 120,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,120] :\tRank = 1"
+  },
+  {
+   "k0": -120,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-120] :\tRank = 1"
+  },
+  {
+   "k0": 121,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,121] :\tRank = 1"
+  },
+  {
+   "k0": -121,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-121] :\tRank = 2"
+  },
+  {
+   "k0": 122,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,122] :\tRank = 2"
+  },
+  {
+   "k0": -122,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-122] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 123,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.1,
+   "raw": "Curve [0,0,0,0,123] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -123,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-123] :\tRank = 1"
+  },
+  {
+   "k0": 124,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,124] :\tRank = 0"
+  },
+  {
+   "k0": -124,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-124] :\tRank = 1"
+  },
+  {
+   "k0": 125,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,125] :\tRank = 0"
+  },
+  {
+   "k0": -125,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-125] :\tRank = 0"
+  },
+  {
+   "k0": 126,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,126] :\tRank = 1"
+  },
+  {
+   "k0": -126,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-126] :\tRank = 1"
+  },
+  {
+   "k0": 127,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,127] :\tRank = 1"
+  },
+  {
+   "k0": -127,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-127] :\tRank = 1"
+  },
+  {
+   "k0": 129,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,129] :\tRank = 2"
+  },
+  {
+   "k0": -129,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-129] :\tRank = 1"
+  },
+  {
+   "k0": 130,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,130] :\tRank = 1"
+  },
+  {
+   "k0": -130,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-130] :\tRank = 1"
+  },
+  {
+   "k0": 131,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,131] :\tRank = 2"
+  },
+  {
+   "k0": -131,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-131] :\tRank = 1"
+  },
+  {
+   "k0": 132,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,132] :\tRank = 1"
+  },
+  {
+   "k0": -132,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-132] :\tRank = 0"
+  },
+  {
+   "k0": 133,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,133] :\tRank = 1"
+  },
+  {
+   "k0": -133,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-133] :\tRank = 0"
+  },
+  {
+   "k0": 134,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,134] :\tRank = 1"
+  },
+  {
+   "k0": -134,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-134] :\tRank = 0"
+  },
+  {
+   "k0": 135,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,135] :\tRank = 0"
+  },
+  {
+   "k0": -135,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-135] :\tRank = 1"
+  },
+  {
+   "k0": 136,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,136] :\tRank = 1"
+  },
+  {
+   "k0": -136,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-136] :\tRank = 0"
+  },
+  {
+   "k0": 137,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,137] :\tRank = 0"
+  },
+  {
+   "k0": -137,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-137] :\tRank = 1"
+  },
+  {
+   "k0": 138,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,138] :\tRank = 1"
+  },
+  {
+   "k0": -138,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-138] :\tRank = 1"
+  },
+  {
+   "k0": 139,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,139] :\tRank = 1"
+  },
+  {
+   "k0": -139,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-139] :\tRank = 2"
+  },
+  {
+   "k0": 140,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,140] :\tRank = 0"
+  },
+  {
+   "k0": -140,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-140] :\tRank = 1"
+  },
+  {
+   "k0": 141,
+   "status": "ok",
+   "rank": 3,
+   "lower": 3,
+   "upper": 3,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,141] :\tRank = 3"
+  },
+  {
+   "k0": -141,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-141] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 142,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,142] :\tRank = 2"
+  },
+  {
+   "k0": -142,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-142] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 143,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,143] :\tRank = 1"
+  },
+  {
+   "k0": -143,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-143] :\tRank = 1"
+  },
+  {
+   "k0": 144,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,144] :\tRank = 0"
+  },
+  {
+   "k0": -144,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-144] :\tRank = 0"
+  },
+  {
+   "k0": 145,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,145] :\tRank = 2"
+  },
+  {
+   "k0": -145,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-145] :\tRank = 0"
+  },
+  {
+   "k0": 146,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,146] :\tRank = 1"
+  },
+  {
+   "k0": -146,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-146] :\tRank = 1"
+  },
+  {
+   "k0": 147,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,147] :\tRank = 1"
+  },
+  {
+   "k0": -147,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-147] :\tRank = 2"
+  },
+  {
+   "k0": 148,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,148] :\tRank = 2"
+  },
+  {
+   "k0": -148,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-148] :\tRank = 1"
+  },
+  {
+   "k0": 149,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,149] :\tRank = 1"
+  },
+  {
+   "k0": -149,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-149] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 150,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,150] :\tRank = 1"
+  },
+  {
+   "k0": -150,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-150] :\tRank = 1"
+  },
+  {
+   "k0": 151,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,151] :\tRank = 2"
+  },
+  {
+   "k0": -151,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-151] :\tRank = 1"
+  },
+  {
+   "k0": 152,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,152] :\tRank = 1"
+  },
+  {
+   "k0": -152,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-152] :\tRank = 2"
+  },
+  {
+   "k0": 153,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,153] :\tRank = 0"
+  },
+  {
+   "k0": -153,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-153] :\tRank = 1"
+  },
+  {
+   "k0": 154,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,154] :\tRank = 1"
+  },
+  {
+   "k0": -154,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-154] :\tRank = 0"
+  },
+  {
+   "k0": 155,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,155] :\tRank = 1"
+  },
+  {
+   "k0": -155,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-155] :\tRank = 2"
+  },
+  {
+   "k0": 156,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,156] :\tRank = 1"
+  },
+  {
+   "k0": -156,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-156] :\tRank = 0"
+  },
+  {
+   "k0": 157,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,157] :\tRank = 0"
+  },
+  {
+   "k0": -157,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-157] :\tRank = 1"
+  },
+  {
+   "k0": 158,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,158] :\tRank = 0"
+  },
+  {
+   "k0": -158,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-158] :\tRank = 0"
+  },
+  {
+   "k0": 159,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,159] :\tRank = 0"
+  },
+  {
+   "k0": -159,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-159] :\tRank = 1"
+  },
+  {
+   "k0": 160,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,160] :\tRank = 0"
+  },
+  {
+   "k0": -160,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-160] :\tRank = 0"
+  },
+  {
+   "k0": 161,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,161] :\tRank = 2"
+  },
+  {
+   "k0": -161,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-161] :\tRank = 0"
+  },
+  {
+   "k0": 162,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,162] :\tRank = 0"
+  },
+  {
+   "k0": -162,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-162] :\tRank = 0"
+  },
+  {
+   "k0": 163,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,163] :\tRank = 1"
+  },
+  {
+   "k0": -163,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-163] :\tRank = 1"
+  },
+  {
+   "k0": 164,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,164] :\tRank = 2"
+  },
+  {
+   "k0": -164,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-164] :\tRank = 1"
+  },
+  {
+   "k0": 165,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,165] :\tRank = 0"
+  },
+  {
+   "k0": -165,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-165] :\tRank = 1"
+  },
+  {
+   "k0": 166,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,166] :\tRank = 1"
+  },
+  {
+   "k0": -166,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-166] :\tRank = 1"
+  },
+  {
+   "k0": 167,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,167] :\tRank = 0"
+  },
+  {
+   "k0": -167,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-167] :\tRank = 1"
+  },
+  {
+   "k0": 168,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,168] :\tRank = 2"
+  },
+  {
+   "k0": -168,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-168] :\tRank = 0"
+  },
+  {
+   "k0": 169,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,169] :\tRank = 1"
+  },
+  {
+   "k0": -169,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-169] :\tRank = 0"
+  },
+  {
+   "k0": 170,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,170] :\tRank = 1"
+  },
+  {
+   "k0": -170,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-170] :\tRank = 2"
+  },
+  {
+   "k0": 171,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,171] :\tRank = 2"
+  },
+  {
+   "k0": -171,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-171] :\tRank = 1"
+  },
+  {
+   "k0": 172,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,172] :\tRank = 1"
+  },
+  {
+   "k0": -172,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-172] :\tRank = 1"
+  },
+  {
+   "k0": 173,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,173] :\tRank = 0"
+  },
+  {
+   "k0": -173,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-173] :\tRank = 1"
+  },
+  {
+   "k0": 174,
+   "status": "bounds",
+   "rank": null,
+   "lower": 1,
+   "upper": 3,
+   "seconds": 0.12,
+   "raw": "Curve [0,0,0,0,174] :\t1 <= rank <= selmer-rank = 3"
+  },
+  {
+   "k0": -174,
+   "status": "ok",
+   "rank": 3,
+   "lower": 3,
+   "upper": 3,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-174] :\tRank = 3"
+  },
+  {
+   "k0": 175,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,175] :\tRank = 0"
+  },
+  {
+   "k0": -175,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-175] :\tRank = 1"
+  },
+  {
+   "k0": 176,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,176] :\tRank = 0"
+  },
+  {
+   "k0": -176,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-176] :\tRank = 0"
+  },
+  {
+   "k0": 177,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,177] :\tRank = 1"
+  },
+  {
+   "k0": -177,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-177] :\tRank = 0"
+  },
+  {
+   "k0": 178,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,178] :\tRank = 0"
+  },
+  {
+   "k0": -178,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-178] :\tRank = 0"
+  },
+  {
+   "k0": 179,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,179] :\tRank = 1"
+  },
+  {
+   "k0": -179,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-179] :\tRank = 1"
+  },
+  {
+   "k0": 180,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,180] :\tRank = 0"
+  },
+  {
+   "k0": -180,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-180] :\tRank = 1"
+  },
+  {
+   "k0": 181,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,181] :\tRank = 0"
+  },
+  {
+   "k0": -181,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-181] :\tRank = 0"
+  },
+  {
+   "k0": 182,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,182] :\tRank = 1"
+  },
+  {
+   "k0": -182,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-182] :\tRank = 1"
+  },
+  {
+   "k0": 183,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,183] :\tRank = 1"
+  },
+  {
+   "k0": -183,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-183] :\tRank = 0"
+  },
+  {
+   "k0": 184,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,184] :\tRank = 1"
+  },
+  {
+   "k0": -184,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-184] :\tRank = 1"
+  },
+  {
+   "k0": 185,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,185] :\tRank = 1"
+  },
+  {
+   "k0": -185,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-185] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 186,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,186] :\tRank = 2"
+  },
+  {
+   "k0": -186,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-186] :\tRank = 2"
+  },
+  {
+   "k0": 187,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,187] :\tRank = 0"
+  },
+  {
+   "k0": -187,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-187] :\tRank = 1"
+  },
+  {
+   "k0": 188,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,188] :\tRank = 1"
+  },
+  {
+   "k0": -188,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-188] :\tRank = 1"
+  },
+  {
+   "k0": 189,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,189] :\tRank = 1"
+  },
+  {
+   "k0": -189,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-189] :\tRank = 0"
+  },
+  {
+   "k0": 190,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,190] :\tRank = 1"
+  },
+  {
+   "k0": -190,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-190] :\tRank = 0"
+  },
+  {
+   "k0": 191,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,191] :\tRank = 1"
+  },
+  {
+   "k0": -191,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-191] :\tRank = 2"
+  },
+  {
+   "k0": 193,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,193] :\tRank = 0"
+  },
+  {
+   "k0": -193,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-193] :\tRank = 1"
+  },
+  {
+   "k0": 196,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,196] :\tRank = 1"
+  },
+  {
+   "k0": -196,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-196] :\tRank = 0"
+  },
+  {
+   "k0": 216,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,216] :\tRank = 0"
+  },
+  {
+   "k0": -216,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-216] :\tRank = 1"
+  },
+  {
+   "k0": 225,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,225] :\tRank = 2"
+  },
+  {
+   "k0": -225,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-225] :\tRank = 1"
+  },
+  {
+   "k0": 243,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,243] :\tRank = 0"
+  },
+  {
+   "k0": -243,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-243] :\tRank = 1"
+  },
+  {
+   "k0": 289,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,289] :\tRank = 1"
+  },
+  {
+   "k0": -289,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-289] :\tRank = 1"
+  },
+  {
+   "k0": 324,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,324] :\tRank = 0"
+  },
+  {
+   "k0": -324,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-324] :\tRank = 1"
+  },
+  {
+   "k0": 343,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,343] :\tRank = 1"
+  },
+  {
+   "k0": -343,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-343] :\tRank = 1"
+  },
+  {
+   "k0": 361,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,361] :\tRank = 0"
+  },
+  {
+   "k0": -361,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-361] :\tRank = 0"
+  },
+  {
+   "k0": 400,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,400] :\tRank = 0"
+  },
+  {
+   "k0": -400,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-400] :\tRank = 0"
+  },
+  {
+   "k0": 441,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,441] :\tRank = 1"
+  },
+  {
+   "k0": -441,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-441] :\tRank = 0"
+  },
+  {
+   "k0": 484,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,484] :\tRank = 0"
+  },
+  {
+   "k0": -484,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-484] :\tRank = 1"
+  },
+  {
+   "k0": 529,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,529] :\tRank = 0"
+  },
+  {
+   "k0": -529,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-529] :\tRank = 1"
+  },
+  {
+   "k0": 625,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,625] :\tRank = 1"
+  },
+  {
+   "k0": -625,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-625] :\tRank = 0"
+  },
+  {
+   "k0": 676,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,676] :\tRank = 0"
+  },
+  {
+   "k0": -676,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-676] :\tRank = 2"
+  },
+  {
+   "k0": 784,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,784] :\tRank = 1"
+  },
+  {
+   "k0": -784,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-784] :\tRank = 0"
+  },
+  {
+   "k0": 841,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,841] :\tRank = 1"
+  },
+  {
+   "k0": -841,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-841] :\tRank = 0"
+  },
+  {
+   "k0": 900,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,900] :\tRank = 0"
+  },
+  {
+   "k0": -900,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-900] :\tRank = 1"
+  },
+  {
+   "k0": 961,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,961] :\tRank = 1"
+  },
+  {
+   "k0": -961,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-961] :\tRank = 0"
+  },
+  {
+   "k0": 1000,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,1000] :\tRank = 1"
+  },
+  {
+   "k0": -1000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-1000] :\tRank = 0"
+  },
+  {
+   "k0": 1089,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1089] :\tRank = 0"
+  },
+  {
+   "k0": -1089,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-1089] :\tRank = 1"
+  },
+  {
+   "k0": 1156,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1156] :\tRank = 1"
+  },
+  {
+   "k0": -1156,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1156] :\tRank = 0"
+  },
+  {
+   "k0": 1225,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1225] :\tRank = 1"
+  },
+  {
+   "k0": -1225,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1225] :\tRank = 1"
+  },
+  {
+   "k0": 1296,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1296] :\tRank = 1"
+  },
+  {
+   "k0": -1296,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-1296] :\tRank = 1"
+  },
+  {
+   "k0": 1331,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,1331] :\tRank = 1"
+  },
+  {
+   "k0": -1331,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-1331] :\tRank = 1"
+  },
+  {
+   "k0": 1369,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1369] :\tRank = 0"
+  },
+  {
+   "k0": -1369,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1369] :\tRank = 2"
+  },
+  {
+   "k0": 1444,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,1444] :\tRank = 0"
+  },
+  {
+   "k0": -1444,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-1444] :\tRank = 1"
+  },
+  {
+   "k0": 1521,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1521] :\tRank = 1"
+  },
+  {
+   "k0": -1521,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-1521] :\tRank = 2"
+  },
+  {
+   "k0": 1681,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1681] :\tRank = 0"
+  },
+  {
+   "k0": -1681,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-1681] :\tRank = 1"
+  },
+  {
+   "k0": 1764,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1764] :\tRank = 1"
+  },
+  {
+   "k0": -1764,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1764] :\tRank = 0"
+  },
+  {
+   "k0": 1849,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1849] :\tRank = 2"
+  },
+  {
+   "k0": -1849,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-1849] :\tRank = 1"
+  },
+  {
+   "k0": 1936,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,1936] :\tRank = 0"
+  },
+  {
+   "k0": -1936,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1936] :\tRank = 1"
+  },
+  {
+   "k0": 1944,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,1944] :\tRank = 1"
+  },
+  {
+   "k0": -1944,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-1944] :\tRank = 1"
+  },
+  {
+   "k0": 2025,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2025] :\tRank = 1"
+  },
+  {
+   "k0": -2025,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-2025] :\tRank = 0"
+  },
+  {
+   "k0": 2116,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2116] :\tRank = 1"
+  },
+  {
+   "k0": -2116,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-2116] :\tRank = 1"
+  },
+  {
+   "k0": 2197,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,2197] :\tRank = 0"
+  },
+  {
+   "k0": -2197,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-2197] :\tRank = 0"
+  },
+  {
+   "k0": 2209,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2209] :\tRank = 1"
+  },
+  {
+   "k0": -2209,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,-2209] :\tRank = 2"
+  },
+  {
+   "k0": 2401,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2401] :\tRank = 1"
+  },
+  {
+   "k0": -2401,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-2401] :\tRank = 0"
+  },
+  {
+   "k0": 2500,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2500] :\tRank = 0"
+  },
+  {
+   "k0": -2500,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-2500] :\tRank = 1"
+  },
+  {
+   "k0": 2592,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,2592] :\tRank = 0"
+  },
+  {
+   "k0": -2592,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-2592] :\tRank = 0"
+  },
+  {
+   "k0": 2601,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2601] :\tRank = 0"
+  },
+  {
+   "k0": -2601,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-2601] :\tRank = 1"
+  },
+  {
+   "k0": 2704,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2704] :\tRank = 1"
+  },
+  {
+   "k0": -2704,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-2704] :\tRank = 1"
+  },
+  {
+   "k0": 2744,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,2744] :\tRank = 1"
+  },
+  {
+   "k0": -2744,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-2744] :\tRank = 0"
+  },
+  {
+   "k0": 2809,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,2809] :\tRank = 1"
+  },
+  {
+   "k0": -2809,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-2809] :\tRank = 1"
+  },
+  {
+   "k0": 3025,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,3025] :\tRank = 2"
+  },
+  {
+   "k0": -3025,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-3025] :\tRank = 0"
+  },
+  {
+   "k0": 3125,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,3125] :\tRank = 0"
+  },
+  {
+   "k0": -3125,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-3125] :\tRank = 1"
+  },
+  {
+   "k0": 3249,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,3249] :\tRank = 1"
+  },
+  {
+   "k0": -3249,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-3249] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 3364,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,3364] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -3364,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-3364] :\tRank = 1"
+  },
+  {
+   "k0": 3375,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,3375] :\tRank = 0"
+  },
+  {
+   "k0": -3375,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-3375] :\tRank = 0"
+  },
+  {
+   "k0": 3481,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,3481] :\tRank = 0"
+  },
+  {
+   "k0": -3481,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-3481] :\tRank = 1"
+  },
+  {
+   "k0": 3600,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,3600] :\tRank = 1"
+  },
+  {
+   "k0": -3600,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-3600] :\tRank = 1"
+  },
+  {
+   "k0": 3721,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.1,
+   "raw": "Curve [0,0,0,0,3721] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -3721,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-3721] :\tRank = 1"
+  },
+  {
+   "k0": 3844,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,3844] :\tRank = 2"
+  },
+  {
+   "k0": -3844,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-3844] :\tRank = 0"
+  },
+  {
+   "k0": 3888,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,3888] :\tRank = 0"
+  },
+  {
+   "k0": -3888,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-3888] :\tRank = 0"
+  },
+  {
+   "k0": 3969,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,3969] :\tRank = 2"
+  },
+  {
+   "k0": -3969,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-3969] :\tRank = 1"
+  },
+  {
+   "k0": 4225,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4225] :\tRank = 1"
+  },
+  {
+   "k0": -4225,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-4225] :\tRank = 2"
+  },
+  {
+   "k0": 4356,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4356] :\tRank = 2"
+  },
+  {
+   "k0": -4356,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-4356] :\tRank = 1"
+  },
+  {
+   "k0": 4489,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4489] :\tRank = 1"
+  },
+  {
+   "k0": -4489,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-4489] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 4624,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4624] :\tRank = 1"
+  },
+  {
+   "k0": -4624,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-4624] :\tRank = 1"
+  },
+  {
+   "k0": 4761,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4761] :\tRank = 0"
+  },
+  {
+   "k0": -4761,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-4761] :\tRank = 1"
+  },
+  {
+   "k0": 4900,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,4900] :\tRank = 1"
+  },
+  {
+   "k0": -4900,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-4900] :\tRank = 0"
+  },
+  {
+   "k0": 4913,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,4913] :\tRank = 0"
+  },
+  {
+   "k0": -4913,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-4913] :\tRank = 0"
+  },
+  {
+   "k0": 5041,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,5041] :\tRank = 1"
+  },
+  {
+   "k0": -5041,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-5041] :\tRank = 1"
+  },
+  {
+   "k0": 5329,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,5329] :\tRank = 0"
+  },
+  {
+   "k0": -5329,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-5329] :\tRank = 2"
+  },
+  {
+   "k0": 5476,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,5476] :\tRank = 0"
+  },
+  {
+   "k0": -5476,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-5476] :\tRank = 1"
+  },
+  {
+   "k0": 5625,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,5625] :\tRank = 0"
+  },
+  {
+   "k0": -5625,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-5625] :\tRank = 1"
+  },
+  {
+   "k0": 5776,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,5776] :\tRank = 2"
+  },
+  {
+   "k0": -5776,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-5776] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 5929,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,5929] :\tRank = 0"
+  },
+  {
+   "k0": -5929,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-5929] :\tRank = 1"
+  },
+  {
+   "k0": 6084,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,6084] :\tRank = 1"
+  },
+  {
+   "k0": -6084,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-6084] :\tRank = 0"
+  },
+  {
+   "k0": 6241,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.11,
+   "raw": "Curve [0,0,0,0,6241] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -6241,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-6241] :\tRank = 1"
+  },
+  {
+   "k0": 6724,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,6724] :\tRank = 1"
+  },
+  {
+   "k0": -6724,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-6724] :\tRank = 1"
+  },
+  {
+   "k0": 6859,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,6859] :\tRank = 1"
+  },
+  {
+   "k0": -6859,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-6859] :\tRank = 1"
+  },
+  {
+   "k0": 6889,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,6889] :\tRank = 1"
+  },
+  {
+   "k0": -6889,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-6889] :\tRank = 2"
+  },
+  {
+   "k0": 7056,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,7056] :\tRank = 0"
+  },
+  {
+   "k0": -7056,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7056] :\tRank = 0"
+  },
+  {
+   "k0": 7225,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,7225] :\tRank = 1"
+  },
+  {
+   "k0": -7225,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7225] :\tRank = 0"
+  },
+  {
+   "k0": 7396,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,7396] :\tRank = 1"
+  },
+  {
+   "k0": -7396,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7396] :\tRank = 0"
+  },
+  {
+   "k0": 7569,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,7569] :\tRank = 0"
+  },
+  {
+   "k0": -7569,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7569] :\tRank = 1"
+  },
+  {
+   "k0": 7776,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,7776] :\tRank = 1"
+  },
+  {
+   "k0": -7776,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7776] :\tRank = 1"
+  },
+  {
+   "k0": 7921,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,7921] :\tRank = 1"
+  },
+  {
+   "k0": -7921,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-7921] :\tRank = 1"
+  },
+  {
+   "k0": 8100,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,8100] :\tRank = 1"
+  },
+  {
+   "k0": -8100,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-8100] :\tRank = 0"
+  },
+  {
+   "k0": 8281,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,8281] :\tRank = 2"
+  },
+  {
+   "k0": -8281,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-8281] :\tRank = 0"
+  },
+  {
+   "k0": 8464,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,8464] :\tRank = 0"
+  },
+  {
+   "k0": -8464,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-8464] :\tRank = 0"
+  },
+  {
+   "k0": 8649,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,8649] :\tRank = 1"
+  },
+  {
+   "k0": -8649,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-8649] :\tRank = 0"
+  },
+  {
+   "k0": 8836,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,8836] :\tRank = 0"
+  },
+  {
+   "k0": -8836,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.01,
+   "raw": "Curve [0,0,0,0,-8836] :\tRank = 1"
+  },
+  {
+   "k0": 9025,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,9025] :\tRank = 0"
+  },
+  {
+   "k0": -9025,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-9025] :\tRank = 1"
+  },
+  {
+   "k0": 9261,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,9261] :\tRank = 1"
+  },
+  {
+   "k0": -9261,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-9261] :\tRank = 1"
+  },
+  {
+   "k0": 9409,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,9409] :\tRank = 0"
+  },
+  {
+   "k0": -9409,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-9409] :\tRank = 1"
+  },
+  {
+   "k0": 9604,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,9604] :\tRank = 0"
+  },
+  {
+   "k0": -9604,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-9604] :\tRank = 0"
+  },
+  {
+   "k0": 9801,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,9801] :\tRank = 1"
+  },
+  {
+   "k0": -9801,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-9801] :\tRank = 0"
+  },
+  {
+   "k0": 10000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,10000] :\tRank = 0"
+  },
+  {
+   "k0": -10000,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-10000] :\tRank = 1"
+  },
+  {
+   "k0": 10648,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,10648] :\tRank = 1"
+  },
+  {
+   "k0": -10648,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-10648] :\tRank = 0"
+  },
+  {
+   "k0": 12167,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,12167] :\tRank = 1"
+  },
+  {
+   "k0": -12167,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-12167] :\tRank = 1"
+  },
+  {
+   "k0": 14641,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,14641] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -14641,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-14641] :\tRank = 1"
+  },
+  {
+   "k0": 16807,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,16807] :\tRank = 1"
+  },
+  {
+   "k0": -16807,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-16807] :\tRank = 0"
+  },
+  {
+   "k0": 17576,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,17576] :\tRank = 1"
+  },
+  {
+   "k0": -17576,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-17576] :\tRank = 2"
+  },
+  {
+   "k0": 24389,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,24389] :\tRank = 0"
+  },
+  {
+   "k0": -24389,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-24389] :\tRank = 0"
+  },
+  {
+   "k0": 27000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,27000] :\tRank = 0"
+  },
+  {
+   "k0": -27000,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-27000] :\tRank = 1"
+  },
+  {
+   "k0": 28561,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,28561] :\tRank = 0"
+  },
+  {
+   "k0": -28561,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-28561] :\tRank = 1"
+  },
+  {
+   "k0": 29791,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,29791] :\tRank = 1"
+  },
+  {
+   "k0": -29791,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-29791] :\tRank = 1"
+  },
+  {
+   "k0": 35937,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,35937] :\tRank = 1"
+  },
+  {
+   "k0": -35937,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-35937] :\tRank = 1"
+  },
+  {
+   "k0": 38416,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,38416] :\tRank = 1"
+  },
+  {
+   "k0": -38416,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-38416] :\tRank = 1"
+  },
+  {
+   "k0": 39304,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,39304] :\tRank = 1"
+  },
+  {
+   "k0": -39304,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-39304] :\tRank = 0"
+  },
+  {
+   "k0": 42875,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,42875] :\tRank = 1"
+  },
+  {
+   "k0": -42875,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-42875] :\tRank = 1"
+  },
+  {
+   "k0": 50000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,50000] :\tRank = 0"
+  },
+  {
+   "k0": -50000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-50000] :\tRank = 0"
+  },
+  {
+   "k0": 50625,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,50625] :\tRank = 1"
+  },
+  {
+   "k0": -50625,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-50625] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 50653,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,50653] :\tRank = 2"
+  },
+  {
+   "k0": -50653,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.29,
+   "raw": "Curve [0,0,0,0,-50653] :\t0 <= rank <= 2"
+  },
+  {
+   "k0": 54872,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,54872] :\tRank = 1"
+  },
+  {
+   "k0": -54872,
+   "status": "ok",
+   "rank": 2,
+   "lower": 2,
+   "upper": 2,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-54872] :\tRank = 2"
+  },
+  {
+   "k0": 59319,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,59319] :\tRank = 0"
+  },
+  {
+   "k0": -59319,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-59319] :\tRank = 0"
+  },
+  {
+   "k0": 68921,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,68921] :\tRank = 0"
+  },
+  {
+   "k0": -68921,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-68921] :\tRank = 0"
+  },
+  {
+   "k0": 74088,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,74088] :\tRank = 0"
+  },
+  {
+   "k0": -74088,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-74088] :\tRank = 1"
+  },
+  {
+   "k0": 79507,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,79507] :\tRank = 1"
+  },
+  {
+   "k0": -79507,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-79507] :\tRank = 1"
+  },
+  {
+   "k0": 83521,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,83521] :\tRank = 1"
+  },
+  {
+   "k0": -83521,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-83521] :\tRank = 1"
+  },
+  {
+   "k0": 97336,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,97336] :\tRank = 1"
+  },
+  {
+   "k0": -97336,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-97336] :\tRank = 0"
+  },
+  {
+   "k0": 100000,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,100000] :\tRank = 1"
+  },
+  {
+   "k0": -100000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.02,
+   "raw": "Curve [0,0,0,0,-100000] :\tRank = 0"
+  },
+  {
+   "k0": 103823,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,103823] :\tRank = 1"
+  },
+  {
+   "k0": -103823,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-103823] :\tRank = 1"
+  },
+  {
+   "k0": 130321,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,130321] :\tRank = 0"
+  },
+  {
+   "k0": -130321,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-130321] :\tRank = 0"
+  },
+  {
+   "k0": 132651,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,132651] :\tRank = 0"
+  },
+  {
+   "k0": -132651,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-132651] :\tRank = 0"
+  },
+  {
+   "k0": 148877,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,148877] :\tRank = 0"
+  },
+  {
+   "k0": -148877,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-148877] :\tRank = 0"
+  },
+  {
+   "k0": 161051,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.12,
+   "raw": "Curve [0,0,0,0,161051] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -161051,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-161051] :\tRank = 1"
+  },
+  {
+   "k0": 166375,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,166375] :\tRank = 1"
+  },
+  {
+   "k0": -166375,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-166375] :\tRank = 1"
+  },
+  {
+   "k0": 185193,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,185193] :\tRank = 1"
+  },
+  {
+   "k0": -185193,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-185193] :\tRank = 1"
+  },
+  {
+   "k0": 194481,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,194481] :\tRank = 0"
+  },
+  {
+   "k0": -194481,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-194481] :\tRank = 1"
+  },
+  {
+   "k0": 195112,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,195112] :\tRank = 1"
+  },
+  {
+   "k0": -195112,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-195112] :\tRank = 0"
+  },
+  {
+   "k0": 205379,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,205379] :\tRank = 1"
+  },
+  {
+   "k0": -205379,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-205379] :\tRank = 1"
+  },
+  {
+   "k0": 234256,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,234256] :\tRank = 0"
+  },
+  {
+   "k0": -234256,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-234256] :\tRank = 0"
+  },
+  {
+   "k0": 268912,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,268912] :\tRank = 1"
+  },
+  {
+   "k0": -268912,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,-268912] :\tRank = 0"
+  },
+  {
+   "k0": 279841,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.03,
+   "raw": "Curve [0,0,0,0,279841] :\tRank = 1"
+  },
+  {
+   "k0": -279841,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.1,
+   "raw": "Curve [0,0,0,0,-279841] :\tRank = 0"
+  },
+  {
+   "k0": 371293,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,371293] :\tRank = 1"
+  },
+  {
+   "k0": -371293,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.12,
+   "raw": "Curve [0,0,0,0,-371293] :\tRank = 0"
+  },
+  {
+   "k0": 456976,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,456976] :\tRank = 1"
+  },
+  {
+   "k0": -456976,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.04,
+   "raw": "Curve [0,0,0,0,-456976] :\tRank = 0"
+  },
+  {
+   "k0": 537824,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,537824] :\tRank = 1"
+  },
+  {
+   "k0": -537824,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,-537824] :\tRank = 1"
+  },
+  {
+   "k0": 707281,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.2,
+   "raw": "Curve [0,0,0,0,707281] :\tRank = 0"
+  },
+  {
+   "k0": -707281,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,-707281] :\tRank = 1"
+  },
+  {
+   "k0": 759375,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,759375] :\tRank = 1"
+  },
+  {
+   "k0": -759375,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.26,
+   "raw": "Curve [0,0,0,0,-759375] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 810000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,810000] :\tRank = 0"
+  },
+  {
+   "k0": -810000,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.05,
+   "raw": "Curve [0,0,0,0,-810000] :\tRank = 0"
+  },
+  {
+   "k0": 923521,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.25,
+   "raw": "Curve [0,0,0,0,923521] :\tRank = 0"
+  },
+  {
+   "k0": -923521,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-923521] :\tRank = 1"
+  },
+  {
+   "k0": 1185921,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.06,
+   "raw": "Curve [0,0,0,0,1185921] :\tRank = 1"
+  },
+  {
+   "k0": -1185921,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.31,
+   "raw": "Curve [0,0,0,0,-1185921] :\tRank = 0"
+  },
+  {
+   "k0": 1336336,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,1336336] :\tRank = 1"
+  },
+  {
+   "k0": -1336336,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.08,
+   "raw": "Curve [0,0,0,0,-1336336] :\tRank = 1"
+  },
+  {
+   "k0": 1419857,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.36,
+   "raw": "Curve [0,0,0,0,1419857] :\tRank = 0"
+  },
+  {
+   "k0": -1419857,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.42,
+   "raw": "Curve [0,0,0,0,-1419857] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": 1500625,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,1500625] :\tRank = 1"
+  },
+  {
+   "k0": -1500625,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.07,
+   "raw": "Curve [0,0,0,0,-1500625] :\tRank = 1"
+  },
+  {
+   "k0": 1874161,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.55,
+   "raw": "Curve [0,0,0,0,1874161] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -1874161,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.45,
+   "raw": "Curve [0,0,0,0,-1874161] :\tRank = 0"
+  },
+  {
+   "k0": 2085136,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.1,
+   "raw": "Curve [0,0,0,0,2085136] :\tRank = 0"
+  },
+  {
+   "k0": -2085136,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.09,
+   "raw": "Curve [0,0,0,0,-2085136] :\tRank = 0"
+  },
+  {
+   "k0": 2313441,
+   "status": "bounds",
+   "rank": null,
+   "lower": 0,
+   "upper": 2,
+   "seconds": 0.6,
+   "raw": "Curve [0,0,0,0,2313441] :\t0 <= rank <= selmer-rank = 2"
+  },
+  {
+   "k0": -2313441,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.47,
+   "raw": "Curve [0,0,0,0,-2313441] :\tRank = 1"
+  },
+  {
+   "k0": 2476099,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.1,
+   "raw": "Curve [0,0,0,0,2476099] :\tRank = 1"
+  },
+  {
+   "k0": -2476099,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,-2476099] :\tRank = 1"
+  },
+  {
+   "k0": 4084101,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,4084101] :\tRank = 1"
+  },
+  {
+   "k0": -4084101,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.91,
+   "raw": "Curve [0,0,0,0,-4084101] :\tRank = 0"
+  },
+  {
+   "k0": 5153632,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,5153632] :\tRank = 0"
+  },
+  {
+   "k0": -5153632,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.19,
+   "raw": "Curve [0,0,0,0,-5153632] :\tRank = 0"
+  },
+  {
+   "k0": 6436343,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.33,
+   "raw": "Curve [0,0,0,0,6436343] :\tRank = 1"
+  },
+  {
+   "k0": -6436343,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 1.41,
+   "raw": "Curve [0,0,0,0,-6436343] :\tRank = 0"
+  },
+  {
+   "k0": 11881376,
+   "status": "ok",
+   "rank": 1,
+   "lower": 1,
+   "upper": 1,
+   "seconds": 0.35,
+   "raw": "Curve [0,0,0,0,11881376] :\tRank = 1"
+  },
+  {
+   "k0": -11881376,
+   "status": "ok",
+   "rank": 0,
+   "lower": 0,
+   "upper": 0,
+   "seconds": 0.39,
+   "raw": "Curve [0,0,0,0,-11881376] :\tRank = 0"
+  }
+ ]
+}

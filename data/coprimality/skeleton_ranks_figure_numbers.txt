@@ -1,0 +1,9 @@
+classes: 670
+E(1000) total mass: 25.9069
+solution-bearing classes plotted: 7 of 7
+all solution-bearing classes have positive rank: True
+max |k0|: 11881376
+rank 0: classes 264 (39.4%), orientations 447, mass 3.14 (12.1%)
+rank 1: classes 337 (50.3%), orientations 435, mass 13.71 (52.9%)
+rank 2: classes 66 (9.9%), orientations 71, mass 8.58 (33.1%)
+rank 3: classes 3 (0.4%), orientations 3, mass 0.48 (1.8%)

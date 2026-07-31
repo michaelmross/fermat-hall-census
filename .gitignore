@@ -1,3 +1,8 @@
 data/beal33m/hits_1e30.jsonl
 __pycache__/
 *.pyc
+
+# verification tier
+*.ckpt
+/verify_33m_*.json
+/scan23m_*.json

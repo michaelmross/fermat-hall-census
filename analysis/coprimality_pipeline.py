@@ -38,7 +38,6 @@ from sympy import factorint, primerange
 S_MAX = 10 ** 16          # anchor ceiling a^m
 M_MIN = 7                 # exponent floor for the {2,3,m} family
 X_MAX = 10 ** 9           # cube-base ceiling of the census coverage
-C_A = 1.40218             # closing constant of the third orientation
 K2, K3 = 10, 7            # working levels for the 2- and 3-adic densities
 CUTOFFS = (300, 1000, 3000)
 
@@ -92,8 +91,20 @@ def e_raw_branch(s, sign, x_max=X_MAX, n=3001):
 
 
 def e_raw_closing(s):
-    """Third orientation x^3 + y^2 = a^m, whose cube base is forced."""
-    return C_A * s ** (-1 / 6) / 2
+    """Third orientation x^3 + y^2 = a^m, whose cube base is forced.
+
+    Discrete sum of 1/(2 sqrt(s - x^3)) over 1 <= x <= floor((s-1)^(1/3)),
+    replacing the continuum closed form C_A s^(-1/6)/2, which collects mass
+    on the branch-point interval containing no integer (the third defect of
+    the census paper's Appendix B)."""
+    r = round(s ** (1 / 3))
+    while r ** 3 >= s:
+        r -= 1
+    while (r + 1) ** 3 < s:
+        r += 1
+    xs = np.arange(1, r + 1, dtype=np.int64)
+    diff = np.int64(s) - xs ** 3
+    return float(np.sum(0.5 / np.sqrt(diff.astype(np.float64))))
 
 
 # --- local factors -----------------------------------------------------------
