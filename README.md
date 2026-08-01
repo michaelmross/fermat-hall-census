@@ -13,9 +13,11 @@ Code, data, and verification infrastructure for the Fermat-Hall Census Program: 
 
 The papers' claims are exhaustive ("every solution in region R is listed") or
 preregistered ("these predictions were fixed before the scan"), so this
-repository is part of the argument, not supplementary material: every number
-maps to a command below, and the commit history is the notary for the
-preregistration. The badge points to the repository's *concept* DOI, which always resolves to the current release.
+repository is part of the argument, not supplementary material. Solution
+counts, rank census figures, coverage figures, densities and deficit, and 
+scaling coefficients all map to commands below. The commit history is the notary
+for the preregistration. The badge points to the repository's *concept* DOI, 
+which always resolves to the current release.
 
 ## Layout
 
